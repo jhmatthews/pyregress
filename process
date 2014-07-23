@@ -1,5 +1,7 @@
 #/bin/bash
 
+DATE=`date +%Y-%m-%d`
+
 cd /Users/jmatthews/Documents/quick_regression/latest/outputs
 
 python ../../scripts/plot_output.py
@@ -8,7 +10,9 @@ python ../../scripts/plot_output.py
 
 cp *.png ../plots/
 
-
+git add plots/
+git commit -am 'Regression test for $DATE'
+git push origin gh-pages
 
 wait
 
