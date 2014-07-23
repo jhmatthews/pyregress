@@ -1,0 +1,25 @@
+#/bin/bash
+
+
+
+
+cd $PYTHON/progs/python_dev_for_tests 
+git pull origin dev
+make clean
+make python
+make clean
+make py_wind 
+make clean
+
+
+cd /Users/jmatthews/Documents/quick_regression/latest/outputs/
+
+py cv_standard > cv_standard.out &
+py fiducial_agn > fiducial_agn.out &
+py balmer_test > balmer_test.out &
+py cv_macro_benchmark > cv_macro_benchmark.out &
+
+
+
+
+
