@@ -1,0 +1,7 @@
+[gh-pages c020b5f] Regression test for $DATE
+ 7 files changed, 10078 insertions(+), 15337 deletions(-)
+ rewrite outputs/balmer_test.out (100%)
+ rewrite outputs/cv_macro_benchmark.out (100%)
+ rewrite outputs/cv_standard.out (100%)
+ rewrite outputs/cv_standard.spec (84%)
+ rewrite outputs/fiducial_agn.out (100%)
