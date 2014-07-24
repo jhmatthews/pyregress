@@ -3431,4 +3431,347 @@ Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
      0     0     0     0     0     0     0     0     0     0
 Zeroth thread successfully received the normalised estimators. About to broadcast.
 Thread 0 happy after broadcast.
-Zeroth thread successfully received the integer
+Zeroth thread successfully received the integer sum. About to broadcast.
+!!python: Number of ionizing photons 1.99737e+56 lum of ionizing photons 6.21604e+45
+!!wind_update: Cell 1  with volume 1.36e+45 has only 75 photons
+!!wind_update: Cell 316  with volume 2.09e+45 has only 9 photons
+!!wind_update: Cell 317  with volume 8.29e+46 has only 54 photons
+!!wind_update: Cell 318  with volume 2.33e+47 has only 96 photons
+!!wind_update: Cell 347  with volume 1.20e+47 has only 42 photons
+!!wind_update: Cell 373  with volume 7.96e+45 has only 21 photons
+!!wind_update: Cell 397  with volume 5.69e+46 has only 52 photons
+!!wind_update: Cell 458  with volume 5.81e+46 has only 23 photons
+!!wind_update: Cell 477  with volume 1.13e+48 has only 99 photons
+!!wind_update: Cell 495  with volume 4.66e+46 has only 21 photons
+!!wind_update: Cell 529  with volume 2.26e+48 has only 92 photons
+!!wind_update: Cell 545  with volume 1.16e+48 has only 52 photons
+!!wind_update: Cell 561  with volume 5.66e+47 has only 36 photons
+!!wind_update: Cell 577  with volume 3.11e+47 has only 24 photons
+!!wind_update: Cell 592  with volume 2.83e+47 has only 17 photons
+!!wind_update: Cell 607  with volume 5.19e+47 has only 25 photons
+!!wind_update: Cell 622  with volume 1.39e+48 has only 27 photons
+!!wind_update: Cell 637  with volume 3.87e+48 has only 41 photons
+!!wind_update: Cell 651  with volume 1.01e+49 has only 61 photons
+!!wind_update: Cell 665  with volume 2.38e+49 has only 92 photons
+!!wind_update: Cell 705  with volume 5.94e+47 has only 18 photons
+!!wind_update: Cell 719  with volume 1.51e+49 has only 52 photons
+!!wind_update: Cell 732  with volume 6.43e+49 has only 96 photons
+!!wind_update: Cell 758  with volume 7.06e+45 has only 0 photons
+!!wind_update: Cell 771  with volume 3.24e+49 has only 36 photons
+!!wind_update: Cell 784  with volume 1.68e+50 has only 84 photons
+!!wind_update: Cell 809  with volume 1.29e+49 has only 31 photons
+!!wind_update: Cell 822  with volume 1.83e+50 has only 66 photons
+!!wind_update: Cell 847  with volume 5.02e+48 has only 11 photons
+!!wind_update: Cell 860  with volume 2.52e+50 has only 70 photons
+!!wind_update: Cell 884  with volume 6.03e+48 has only 8 photons
+!!wind_update: Cell 897  with volume 4.53e+50 has only 53 photons
+!!wind_update: Cell 921  with volume 3.08e+49 has only 12 photons
+!!wind_update: Cell 933  with volume 9.99e+50 has only 49 photons
+!!wind_update: Cell 957  with volume 1.83e+50 has only 19 photons
+!!wind_update: Cell 969  with volume 2.46e+51 has only 99 photons
+!!wind_update: Cell 993  with volume 8.61e+50 has only 29 photons
+!!wind_update: Cell 1017  with volume 4.79e+48 has only 3 photons
+!!wind_update: Cell 1029  with volume 3.30e+51 has only 48 photons
+!!wind_update: Cell 1053  with volume 7.51e+50 has only 24 photons
+!!wind_update: Cell 1088  with volume 5.23e+51 has only 44 photons
+!!wind_update: Cell 1111  with volume 1.92e+49 has only 34 photons
+!!wind_update: Cell 1112  with volume 7.99e+50 has only 9 photons
+!!wind_update: Cell 1124  with volume 2.17e+52 has only 80 photons
+!!wind_update: Cell 1147  with volume 1.02e+52 has only 43 photons
+!!wind_update: Cell 1170  with volume 1.39e+51 has only 4 photons
+!!wind_update: Cell 1182  with volume 4.93e+52 has only 56 photons
+!!wind_update: Cell 1205  with volume 2.45e+52 has only 42 photons
+!!wind_update: Cell 1228  with volume 4.21e+51 has only 7 photons
+!!wind_update: Cell 1240  with volume 1.24e+53 has only 46 photons
+!!wind_update: Cell 1263  with volume 6.81e+52 has only 63 photons
+!!wind_update: Cell 1286  with volume 1.72e+52 has only 13 photons
+!!wind_update: Cell 1298  with volume 3.36e+53 has only 93 photons
+!!wind_update: Cell 1309  with volume 1.39e+51 has only 87 photons
+!!wind_update: Cell 1321  with volume 2.06e+53 has only 89 photons
+!!wind_update: Cell 1344  with volume 7.37e+52 has only 22 photons
+!!wind_update: Cell 1367  with volume 3.50e+50 has only 0 photons
+!!wind_update: Cell 1379  with volume 6.44e+53 has only 89 photons
+!!wind_update: Cell 1402  with volume 3.03e+53 has only 43 photons
+!!wind_update: Cell 1425  with volume 3.80e+52 has only 6 photons
+MPI task 0 is working on cells 0 to max 1436 (total size 1436).
+MPI task 0 broadcasting plasma update information.
+MPI task 0 survived broadcasting plasma update information.
+!!wind_update: Absorbed flux    4.82e+43  (photo 3.83e+43 ff 3.70e+42 compton 1.39e+42 induced_compton 4.07e+38 lines 4.82e+42)
+!!wind_update: Wind heating    4.82e+43  (photo 3.83e+43 ff 3.70e+42 compton 1.39e+42 induced_compton 4.07e+38 lines 4.82e+42 adiabatic -2.11e+35)
+!!wind_update: Wind luminosity  3.66e+44 (recomb 1.89e+44 ff 1.04e+44 lines 7.37e+43) after update
+!!wind_update: Wind cooling     3.70e+44 (recomb 1.89e+44 ff 1.04e+44 compton 1.31e+41 DR 3.69e+42 lines 7.37e+43 adiabatic 1.59e+40) after update
+!!wind_update: Max change in t_r 7070015 at cell  607 (6,7)
+!!wind_update: Ave change in t_r 134835 from 871965 to 1006800
+!!wind_update: Max change in t_e  95379 at cell  560 (5,60)
+!!wind_update: Ave change in t_e    940 from  44572 to  45511
+Summary  t_e   45511      940  #t_e and dt_e on this update
+Summary  t_r  1006800   134835  #t_r and dt_r on this update
+!!Check_converging:  473 (0.329) converged and 1295 (0.902) converging of 1436 cells
+!!Check_convergence_breakdown: t_r 1436 t_e(real)  473 t_e(maxed)    0 hc(real)  765
+Summary  convergence  473 0.329  1295  0.902  1436  #  n_converged fraction_converged  converging fraction_converging total cells
+
+ T rad
+   z\x   0.00e+00 5.24e+16 6.55e+16 8.19e+16 1.02e+17 1.28e+17 1.60e+17 2.00e+17 2.50e+17 3.13e+17 3.91e+17 4.89e+17 6.12e+17 7.65e+17 9.57e+17 1.20e+18 1.50e+18 1.87e+18 2.34e+18 2.93e+18 3.66e+18 4.57e+18 5.72e+18 7.15e+18 8.94e+18 
+0.00e+00        0  7.7e+04    3e+04  3.9e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+8.86e+14        0  2.1e+05  5.4e+04  7.3e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+9.75e+14        0  2.6e+05  6.6e+04  8.7e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.07e+15        0  2.7e+05  8.6e+04  9.6e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.18e+15        0  3.3e+05  9.6e+04  9.8e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.30e+15        0  3.4e+05    1e+05  8.8e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.43e+15        0  4.7e+05    1e+05  9.5e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.58e+15        0  5.4e+05  1.4e+05  1.1e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.74e+15        0  5.4e+05  1.6e+05    1e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.91e+15        0  7.1e+05  1.7e+05  1.1e+05  6.2e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.11e+15        0    9e+05  1.7e+05  1.3e+05  4.8e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.32e+15        0  1.5e+06  2.1e+05  1.7e+05  4.8e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.55e+15        0  2.2e+06  2.1e+05  2.1e+05  4.3e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.81e+15        0  2.1e+06  2.6e+05  2.6e+05  4.7e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.09e+15        0  2.4e+06  2.7e+05  2.4e+05  5.6e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.41e+15        0  2.3e+06  3.1e+05  2.3e+05    5e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.75e+15        0  2.6e+06  4.3e+05  1.9e+05    6e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+4.13e+15        0        0  4.4e+05  2.3e+05  5.9e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+4.55e+15        0        0  5.3e+05  2.8e+05  5.6e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+5.00e+15        0        0  7.8e+05  3.4e+05  5.4e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+5.51e+15        0        0  7.3e+05  3.4e+05  5.4e+05  5.3e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+6.07e+15        0        0  1.4e+06  3.3e+05  6.2e+05  6.8e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+6.68e+15        0        0  1.6e+06  4.6e+05  4.5e+05  7.9e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+7.35e+15        0        0  1.6e+06  5.2e+05  7.1e+05    7e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+8.10e+15        0        0  1.8e+06  6.6e+05    6e+05  6.1e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+8.91e+15        0        0  1.4e+06  7.2e+05  6.5e+05  7.6e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+9.81e+15        0        0        0  1.2e+06  7.6e+05  6.4e+05    8e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.08e+16        0        0        0  1.2e+06  7.8e+05  1.1e+06  9.2e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.19e+16        0        0        0  1.2e+06  1.1e+06  1.1e+06    1e+06        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.31e+16        0        0        0  1.3e+06  8.8e+05  9.3e+05  8.8e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.44e+16        0        0        0  1.5e+06  1.1e+06  9.4e+05  8.7e+05  2.9e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.59e+16        0        0        0        0  1.2e+06    1e+06  1.3e+06    1e+06        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.75e+16        0        0        0        0  1.4e+06  1.2e+06  1.1e+06  9.9e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.92e+16        0        0        0        0  1.2e+06  9.2e+05  1.4e+06    1e+06        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.12e+16        0        0        0        0  1.2e+06  1.4e+06  1.3e+06  6.3e+05  4.8e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.33e+16        0        0        0        0        0  1.1e+06  1.3e+06  1.1e+06  7.6e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.57e+16        0        0        0        0        0  1.1e+06  1.2e+06  5.8e+05    1e+06        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.83e+16        0        0        0        0        0  1.1e+06  1.1e+06  7.6e+05  9.7e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.11e+16        0        0        0        0        0  9.6e+05  9.6e+05    1e+06  7.4e+05  5.4e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.43e+16        0        0        0        0        0        0  9.5e+05  1.1e+06    1e+06  1.1e+06        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.77e+16        0        0        0        0        0        0  9.6e+05    9e+05  8.5e+05    7e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+4.15e+16        0        0        0        0        0        0  9.5e+05  8.7e+05  1.3e+06  5.1e+05  6.2e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+4.57e+16        0        0        0        0        0        0        0  9.8e+05    1e+06  7.6e+05    9e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+5.04e+16        0        0        0        0        0        0        0  9.5e+05    1e+06  1.2e+06  8.4e+05        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+5.54e+16        0        0        0        0        0        0        0  1.1e+06    1e+06  8.1e+05  9.7e+05  8.6e+05        0        0        0        0        0        0        0        0        0        0        0        0        0 
+6.10e+16        0        0        0        0        0        0        0        0  9.6e+05  8.6e+05  1.2e+06    7e+05        0        0        0        0        0        0        0        0        0        0        0        0        0 
+6.72e+16        0        0        0        0        0        0        0        0    1e+06  9.6e+05  9.9e+05  7.3e+05  2.4e+05        0        0        0        0        0        0        0        0        0        0        0        0 
+7.40e+16        0        0        0        0        0        0        0        0  9.1e+05    1e+06  9.9e+05    1e+06  5.6e+05        0        0        0        0        0        0        0        0        0        0        0        0 
+8.15e+16        0        0        0        0        0        0        0        0        0    1e+06  9.7e+05  1.2e+06  4.4e+05        0        0        0        0        0        0        0        0        0        0        0        0 
+8.97e+16        0        0        0        0        0        0        0        0        0    9e+05  9.7e+05    9e+05  9.9e+05  2.3e+05        0        0        0        0        0        0        0        0        0        0        0 
+9.87e+16        0        0        0        0        0        0        0        0        0  8.3e+05    1e+06  9.1e+05  1.3e+06  3.9e+05        0        0        0        0        0        0        0        0        0        0        0 
+1.09e+17        0        0        0        0        0        0        0        0        0        0  9.7e+05  1.1e+06  9.2e+05  7.5e+05        0        0        0        0        0        0        0        0        0        0        0 
+1.20e+17        0        0        0        0        0        0        0        0        0        0  8.2e+05  1.1e+06  9.6e+05  1.8e+06    8e+05        0        0        0        0        0        0        0        0        0        0 
+1.32e+17        0        0        0        0        0        0        0        0        0        0  6.8e+05    1e+06    1e+06  1.1e+06  7.6e+05        0        0        0        0        0        0        0        0        0        0 
+1.45e+17        0        0        0        0        0        0        0        0        0        0        0  9.1e+05  1.1e+06  9.3e+05  1.4e+06  7.6e+05        0        0        0        0        0        0        0        0        0 
+1.60e+17        0        0        0        0        0        0        0        0        0        0        0  7.2e+05  1.1e+06    1e+06  1.4e+06    1e+06        0        0        0        0        0        0        0        0        0 
+1.76e+17        0        0        0        0        0        0        0        0        0        0        0        0  9.5e+05  1.3e+06  1.3e+06  7.2e+05        0        0        0        0        0        0        0        0        0 
+1.94e+17        0        0        0        0        0        0        0        0        0        0        0        0  7.7e+05  1.2e+06  1.1e+06  1.4e+06  8.8e+05        0        0        0        0        0        0        0        0 
+2.13e+17        0        0        0        0        0        0        0        0        0        0        0        0  8.2e+05    1e+06  1.3e+06  1.1e+06  5.6e+05        0        0        0        0        0        0        0        0 
+2.35e+17        0        0        0        0        0        0        0        0        0        0        0        0        0  8.3e+05  1.2e+06  1.2e+06  1.4e+06  1.7e+06        0        0        0        0        0        0        0 
+2.58e+17        0        0        0        0        0        0        0        0        0        0        0        0        0  8.1e+05  1.1e+06  1.2e+06  1.4e+06  9.6e+05        0        0        0        0        0        0        0 
+2.85e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0  9.3e+05  1.2e+06  1.3e+06  1.2e+06        0        0        0        0        0        0        0 
+3.13e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0  7.9e+05  1.2e+06  1.2e+06  1.8e+06  8.4e+05        0        0        0        0        0        0 
+3.45e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0  6.8e+05    1e+06  1.5e+06  1.3e+06  1.4e+06        0        0        0        0        0        0 
+3.80e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  8.1e+05  1.3e+06  1.2e+06  2.2e+06  7.1e+05        0        0        0        0        0 
+4.18e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  7.7e+05  1.1e+06  1.6e+06  1.4e+06  1.3e+06        0        0        0        0        0 
+4.60e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  8.6e+05  1.2e+06  1.5e+06  1.9e+06  5.6e+05        0        0        0        0 
+5.07e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  7.6e+05  1.2e+06  1.6e+06  1.3e+06  1.1e+06        0        0        0        0 
+5.58e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  5.7e+05  9.9e+05  1.4e+06  1.5e+06  1.9e+06        0        0        0        0 
+6.14e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  7.9e+05  1.3e+06  1.4e+06  1.7e+06  5.8e+05        0        0        0 
+6.76e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  7.3e+05  1.1e+06  1.4e+06  1.3e+06  1.4e+06        0        0        0 
+7.45e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  8.2e+05  1.3e+06  1.4e+06  1.7e+06  1.5e+06        0        0 
+8.20e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0    8e+05  1.2e+06  1.8e+06  1.2e+06  1.4e+06        0        0 
+9.03e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  8.6e+05  1.3e+06  1.5e+06  2.1e+06  4.3e+07        0 
+9.94e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0    8e+05  1.3e+06  1.6e+06  1.7e+06  1.1e+06        0 
+1.09e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  9.4e+05    1e+06  1.4e+06  1.8e+06    2e+06        0 
+1.20e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  7.8e+05  1.3e+06  1.4e+06  1.6e+06  1.7e+06 
+1.33e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  8.1e+05  1.2e+06  1.7e+06  1.9e+06  1.6e+06 
+1.46e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  8.2e+05  1.4e+06  1.5e+06  2.2e+06 
+1.61e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  7.8e+05  1.2e+06    2e+06  1.7e+06 
+1.77e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0    9e+05  1.4e+06  1.9e+06 
+1.95e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  7.9e+05  1.3e+06  1.8e+06 
+2.15e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  9.4e+05  1.1e+06  1.5e+06 
+2.36e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  7.8e+05  1.4e+06 
+2.60e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  8.1e+05  1.2e+06 
+2.86e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  8.1e+05 
+3.15e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  7.9e+05 
+3.47e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.82e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+4.21e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+4.63e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+5.10e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+5.61e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+6.18e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+6.81e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+7.49e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+8.25e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+9.08e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.00e+19        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.10e+19        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+
+ T e
+   z\x   0.00e+00 5.24e+16 6.55e+16 8.19e+16 1.02e+17 1.28e+17 1.60e+17 2.00e+17 2.50e+17 3.13e+17 3.91e+17 4.89e+17 6.12e+17 7.65e+17 9.57e+17 1.20e+18 1.50e+18 1.87e+18 2.34e+18 2.93e+18 3.66e+18 4.57e+18 5.72e+18 7.15e+18 8.94e+18 
+0.00e+00        0  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+8.86e+14        0  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+9.75e+14        0  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.07e+15        0  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.18e+15        0  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.30e+15        0  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.43e+15        0  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.58e+15        0  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.74e+15        0  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.91e+15        0  1.1e+04  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.11e+15        0  1.1e+04  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.32e+15        0  1.1e+04  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.55e+15        0  1.4e+04  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.81e+15        0  1.4e+04  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.09e+15        0  1.2e+04  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.41e+15        0  1.4e+04  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.75e+15        0  1.8e+04  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+4.13e+15        0        0  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+4.55e+15        0        0  1.1e+04  1.1e+04  1.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+5.00e+15        0        0  1.1e+04  1.1e+04  1.3e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+5.51e+15        0        0  1.4e+04  1.1e+04  1.1e+04  1.2e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+6.07e+15        0        0  1.6e+04  1.1e+04  1.1e+04  1.3e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+6.68e+15        0        0  1.6e+04  1.1e+04  1.1e+04  1.5e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+7.35e+15        0        0  1.3e+04  1.1e+04  1.1e+04  1.6e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+8.10e+15        0        0    5e+04  1.3e+04  1.3e+04  1.6e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+8.91e+15        0        0  1.3e+05  1.5e+04  1.1e+04  1.5e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+9.81e+15        0        0        0  1.4e+04  1.1e+04  1.5e+04  1.6e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.08e+16        0        0        0  1.3e+04  1.4e+04  1.5e+04  1.4e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.19e+16        0        0        0  1.3e+04  1.4e+04  1.6e+04  1.3e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.31e+16        0        0        0  2.3e+04  1.5e+04  1.5e+04  1.4e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.44e+16        0        0        0  1.4e+05  1.6e+04  1.5e+04  1.5e+04  3.6e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.59e+16        0        0        0        0  1.2e+04  1.7e+04  1.2e+04  1.6e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.75e+16        0        0        0        0  1.2e+04  1.7e+04  1.2e+04  1.6e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.92e+16        0        0        0        0  2.5e+04  1.5e+04  1.5e+04  1.8e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.12e+16        0        0        0        0  1.6e+05  1.3e+04  1.5e+04  1.7e+04  4.9e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.33e+16        0        0        0        0        0  1.3e+04  1.7e+04  1.7e+04  1.6e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.57e+16        0        0        0        0        0  1.8e+04  1.5e+04  1.7e+04  1.7e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+2.83e+16        0        0        0        0        0    3e+04  1.3e+04  1.6e+04  1.8e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.11e+16        0        0        0        0        0  2.1e+05  1.3e+04  1.6e+04  1.7e+04  2.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.43e+16        0        0        0        0        0        0  1.8e+04  1.4e+04  1.9e+04  1.5e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.77e+16        0        0        0        0        0        0  2.6e+04  1.4e+04  1.9e+04  1.8e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+4.15e+16        0        0        0        0        0        0    1e+05  1.4e+04  1.8e+04  1.8e+04  1.8e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+4.57e+16        0        0        0        0        0        0        0  1.8e+04  1.9e+04  2.9e+04  1.8e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+5.04e+16        0        0        0        0        0        0        0  2.5e+04  1.6e+04  1.8e+04  1.7e+04        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+5.54e+16        0        0        0        0        0        0        0  1.4e+05  1.5e+04  1.8e+04  1.8e+04  1.7e+04        0        0        0        0        0        0        0        0        0        0        0        0        0 
+6.10e+16        0        0        0        0        0        0        0        0  1.7e+04  1.4e+04  1.8e+04  3.1e+04        0        0        0        0        0        0        0        0        0        0        0        0        0 
+6.72e+16        0        0        0        0        0        0        0        0  3.8e+04  1.7e+04  1.7e+04  3.8e+04  9.2e+04        0        0        0        0        0        0        0        0        0        0        0        0 
+7.40e+16        0        0        0        0        0        0        0        0  4.9e+05  1.4e+04  1.7e+04    2e+04  2.1e+04        0        0        0        0        0        0        0        0        0        0        0        0 
+8.15e+16        0        0        0        0        0        0        0        0        0  2.5e+04  1.4e+04  1.8e+04    2e+04        0        0        0        0        0        0        0        0        0        0        0        0 
+8.97e+16        0        0        0        0        0        0        0        0        0  1.3e+05  1.5e+04    2e+04  1.8e+04  3.3e+04        0        0        0        0        0        0        0        0        0        0        0 
+9.87e+16        0        0        0        0        0        0        0        0        0  4.9e+05    2e+04  1.4e+04  2.2e+04  2.1e+04        0        0        0        0        0        0        0        0        0        0        0 
+1.09e+17        0        0        0        0        0        0        0        0        0        0  3.6e+04  1.5e+04  1.9e+04  1.8e+04        0        0        0        0        0        0        0        0        0        0        0 
+1.20e+17        0        0        0        0        0        0        0        0        0        0  1.7e+05  1.8e+04  1.8e+04  3.3e+04  1.8e+04        0        0        0        0        0        0        0        0        0        0 
+1.32e+17        0        0        0        0        0        0        0        0        0        0  4.9e+05  2.9e+04  1.7e+04    3e+04  2.9e+04        0        0        0        0        0        0        0        0        0        0 
+1.45e+17        0        0        0        0        0        0        0        0        0        0        0  1.5e+05  1.8e+04  1.5e+04  2.9e+04  4.9e+04        0        0        0        0        0        0        0        0        0 
+1.60e+17        0        0        0        0        0        0        0        0        0        0        0  4.9e+05  2.7e+04    2e+04  2.5e+04  2.5e+04        0        0        0        0        0        0        0        0        0 
+1.76e+17        0        0        0        0        0        0        0        0        0        0        0        0  5.3e+04  1.6e+04  1.8e+04  2.3e+04        0        0        0        0        0        0        0        0        0 
+1.94e+17        0        0        0        0        0        0        0        0        0        0        0        0  2.1e+05  2.6e+04    3e+04  2.1e+04  2.4e+04        0        0        0        0        0        0        0        0 
+2.13e+17        0        0        0        0        0        0        0        0        0        0        0        0  4.7e+05  3.6e+04  1.8e+04  2.2e+04  2.3e+04        0        0        0        0        0        0        0        0 
+2.35e+17        0        0        0        0        0        0        0        0        0        0        0        0        0  1.7e+05  2.5e+04  2.8e+04  2.7e+04  3.4e+04        0        0        0        0        0        0        0 
+2.58e+17        0        0        0        0        0        0        0        0        0        0        0        0        0  4.4e+05  3.4e+04  3.2e+04  2.1e+04  2.9e+04        0        0        0        0        0        0        0 
+2.85e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0  1.2e+05  2.4e+04  2.3e+04  1.8e+04        0        0        0        0        0        0        0 
+3.13e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0  4.2e+05  2.9e+04  3.1e+04  1.5e+04  3.6e+04        0        0        0        0        0        0 
+3.45e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0  3.5e+05  4.5e+04  3.6e+04  1.6e+04  3.4e+04        0        0        0        0        0        0 
+3.80e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  2.1e+05  3.4e+04  1.7e+04  3.4e+04  4.2e+04        0        0        0        0        0 
+4.18e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0    3e+05  4.2e+04  1.7e+04  2.3e+04  2.8e+04        0        0        0        0        0 
+4.60e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  1.7e+05    3e+04  1.9e+04  2.9e+04    1e+05        0        0        0        0 
+5.07e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  3.6e+05  4.1e+04  3.9e+04  2.1e+04  3.2e+04        0        0        0        0 
+5.58e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  1.7e+05  1.2e+05  2.8e+04  2.8e+04  2.3e+04        0        0        0        0 
+6.14e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  3.2e+05  3.3e+04  2.1e+04  2.7e+04  4.9e+04        0        0        0 
+6.76e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  1.8e+05  4.5e+04  2.8e+04  2.2e+04  1.7e+04        0        0        0 
+7.45e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0    2e+05  3.1e+04  3.6e+04  3.2e+04    7e+04        0        0 
+8.20e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  1.7e+05  4.2e+04  2.4e+04  2.2e+04  1.8e+04        0        0 
+9.03e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  1.6e+05  3.1e+04  2.1e+04  2.3e+04  3.3e+04        0 
+9.94e+17        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  2.2e+05  3.8e+04  1.9e+04  2.1e+04  3.3e+04        0 
+1.09e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  1.2e+05  1.1e+05  3.1e+04  2.4e+04    2e+04        0 
+1.20e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  2.1e+05  2.6e+04  2.1e+04  2.4e+04  2.7e+04 
+1.33e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  9.9e+04  4.2e+04  2.2e+04  3.3e+04  1.9e+04 
+1.46e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  1.6e+05  2.6e+04  1.8e+04  3.1e+04 
+1.61e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  1.3e+05  3.2e+04    2e+04  1.7e+04 
+1.77e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  1.3e+05  2.5e+04  1.8e+04 
+1.95e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  1.3e+05    3e+04  2.7e+04 
+2.15e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  6.1e+04  8.9e+04  1.6e+04 
+2.36e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  1.3e+05  2.7e+04 
+2.60e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  5.4e+04  3.8e+04 
+2.86e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  1.1e+05 
+3.15e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0  7.8e+04 
+3.47e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+3.82e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+4.21e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+4.63e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+5.10e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+5.61e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+6.18e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+6.81e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+7.49e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+8.25e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+9.08e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.00e+19        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+1.10e+19        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
+Completed ionization cycle 8 :  The elapsed TIME was 843.625335
+xxx Thu Jul 24 10:59:45 2014    843.7 OK                   Finished 8 of 30 ionization cycle 
+wind_write sizes: NPLASMA 1436 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 10:59:45 2014    844.2 NOK                  Starting 9 of 30 ionization cycle 
+!!Python: Begining cycle 9 of 30 for defining wind
+Subcycle 0 of 1 in Cycle 9 of 30 for defining wind structure
+init_freebound: Recycling freebound, storage for NFB (10), need 90 to avoid 
+init_freebound: Creating recombination emissivites between 1.000000e+14 and 1.000000e+15
+init_freebound: Recycling freebound, storage for NFB (10), need 91 to avoid 
+init_freebound: Creating recombination emissivites between 1.000000e+15 and 3.162000e+15
+init_freebound: Recycling freebound, storage for NFB (10), need 92 to avoid 
+init_freebound: Creating recombination emissivites between 3.162000e+15 and 1.000000e+16
+init_freebound: Recycling freebound, storage for NFB (10), need 93 to avoid 
+init_freebound: Creating recombination emissivites between 1.000000e+16 and 3.162000e+16
+init_freebound: Recycling freebound, storage for NFB (10), need 94 to avoid 
+init_freebound: Creating recombination emissivites between 3.162000e+16 and 1.000000e+17
+init_freebound: Recycling freebound, storage for NFB (10), need 95 to avoid 
+init_freebound: Creating recombination emissivites between 1.000000e+17 and 3.162000e+17
+init_freebound: Recycling freebound, storage for NFB (10), need 96 to avoid 
+init_freebound: Creating recombination emissivites between 3.162000e+17 and 1.000000e+18
+init_freebound: Recycling freebound, storage for NFB (10), need 97 to avoid 
+init_freebound: Creating recombination emissivites between 1.000000e+18 and 3.162000e+18
+init_freebound: Recycling freebound, storage for NFB (10), need 98 to avoid 
+init_freebound: Creating recombination emissivites between 1.000000e+19 and 1.000000e+20
+photon_gen: band 1.00e+14 to 1.00e+15 weight 2.62e+41 nphotons 20000 ndisk  19639 nwind    337 nstar      0 npow 24 
+photon_gen: band 1.00e+15 to 3.16e+15 weight 5.65e+41 nphotons 20000 ndisk  19791 nwind    203 nstar      0 npow 6 
+photon_gen: band 3.16e+15 to 1.00e+16 weight 3.35e+41 nphotons 20000 ndisk  19612 nwind    376 nstar      0 npow 12 
+photon_gen: band 1.00e+16 to 3.16e+16 weight 4.12e+39 nphotons 20000 ndisk  18776 nwind     75 nstar      0 npow 1149 
+photon_gen: band 3.16e+16 to 1.00e+17 weight 2.66e+38 nphotons 20000 ndisk      0 nwind      3 nstar      0 npow 19997 
+photon_gen: band 1.00e+17 to 3.16e+17 weight 2.98e+38 nphotons 20000 ndisk      0 nwind      4 nstar      0 npow 19996 
+photon_gen: band 3.16e+17 to 1.00e+18 weight 3.35e+38 nphotons 20000 ndisk      0 nwind      0 nstar      0 npow 20000 
+photon_gen: band 1.00e+18 to 3.16e+18 weight 3.76e+38 nphotons 20000 ndisk      0 nwind      0 nstar      0 npow 20000 
+init_freebound: Recycling freebound, storage for NFB (10), need 99 to avoid 
+init_freebound: Creating recombination emissivites between 3.162000e+18 and 1.000000e+19
+photon_gen: band 3.16e+18 to 1.00e+19 weight 4.22e+38 nphotons 20000 ndisk      0 nwind      0 nstar      0 npow 20000 
+init_freebound: Recycling freebound, storage for NFB (10), need 100 to avoid 
+init_freebound: Creating recombination emissivites between 0.000000e+00 and 1.000000e+50
+photon_gen: band 1.00e+19 to 1.00e+20 weight 1.00e+39 nphotons 20000 ndisk      0 nwind      0 nstar      0 npow 20000 
+NSH Geo.n_ioniz=2.075220e+56
+!!python: Total photon luminosity before transphot 2.336084579821e+46
+
+Photon       0 of  200000 or  0.000 per cent 
+Photon   50000 of  200000 or 25.000 per cent 
+Photon  100000 of  200000 or 50.000 per cent 
+Photon  150000 of  200000 or 75.000 per cent 
+
+
+!!python: Total photon luminosity after transphot 2.311317134149e+46 (diff -2.476744567288e+44). Radiated luminosity 2.202890470077e+46
+NSH Geo.n_ioniz=2.005677e+56
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+181928  8427  3108  1521   965   607   495   381   296   283
+   223   202   173   138   140   105   107    85    75    71
+    53    57    63    39    42    37    29    37    33    21
+    24    19    25    14    15    15    11    10    12    16
+    11     5    11     9     6     6     7     8     6     3
+    26
+Number of photons resonantly scattering n times
+197

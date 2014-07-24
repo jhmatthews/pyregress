@@ -18,3 +18,5 @@ Thu Jul 24 10:56:32 2014    650.4 OK                   Finished 6 of 30 ionizati
 Thu Jul 24 10:56:32 2014    651.1 NOK                  Starting 7 of 30 ionization cycle 
 Thu Jul 24 10:58:05 2014    743.9 OK                   Finished 7 of 30 ionization cycle 
 Thu Jul 24 10:58:06 2014    744.5 NOK                  Starting 8 of 30 ionization cycle 
+Thu Jul 24 10:59:45 2014    843.7 OK                   Finished 8 of 30 ionization cycle 
+Thu Jul 24 10:59:45 2014    844.2 NOK                  Starting 9 of 30 ionization cycle 

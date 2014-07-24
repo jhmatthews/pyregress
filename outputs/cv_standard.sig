@@ -50,3 +50,7 @@ Thu Jul 24 10:57:26 2014    704.6 OK                   Finished   2 of  20 spect
 Thu Jul 24 10:57:26 2014    704.7 NOK                  Starting 3 of 20 spectral cycle 
 Thu Jul 24 10:58:13 2014    751.6 OK                   Finished   3 of  20 spectrum cycles 
 Thu Jul 24 10:58:13 2014    751.7 NOK                  Starting 4 of 20 spectral cycle 
+Thu Jul 24 10:59:02 2014    801.0 OK                   Finished   4 of  20 spectrum cycles 
+Thu Jul 24 10:59:02 2014    801.0 NOK                  Starting 5 of 20 spectral cycle 
+Thu Jul 24 10:59:48 2014    847.2 OK                   Finished   5 of  20 spectrum cycles 
+Thu Jul 24 10:59:48 2014    847.2 NOK                  Starting 6 of 20 spectral cycle 
