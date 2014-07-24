@@ -1,5 +1,5 @@
 # Python Version 78a_dev
-# Date	Wed Jul 23 18:30:57 2014
+# Date	Thu Jul 24 10:45:50 2014
 #  
 # Var	 Wind_type(0=SV,1=Sphere,2=Previous,3=Proga,4=Corona,5=knigge,6=homologous,7=yso,8=elvis,9=shell)	9
 # Var	 Atomic_data                             	data/h20
