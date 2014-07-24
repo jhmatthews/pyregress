@@ -40,3 +40,9 @@ Thu Jul 24 10:54:16 2014    514.4 OK                   Finished 17 of 20 ionizat
 Thu Jul 24 10:54:16 2014    514.5 NOK                  Starting 18 of 20 ionization cycle 
 Thu Jul 24 10:54:42 2014    541.2 OK                   Finished 18 of 20 ionization cycle 
 Thu Jul 24 10:54:42 2014    541.2 NOK                  Starting 19 of 20 ionization cycle 
+Thu Jul 24 10:55:10 2014    569.0 OK                   Finished 19 of 20 ionization cycle 
+Thu Jul 24 10:55:10 2014    569.1 NOK                  Starting 0 of 20 spectral cycle 
+Thu Jul 24 10:55:56 2014    614.5 OK                   Finished   0 of  20 spectrum cycles 
+Thu Jul 24 10:55:56 2014    614.5 NOK                  Starting 1 of 20 spectral cycle 
+Thu Jul 24 10:56:41 2014    659.5 OK                   Finished   1 of  20 spectrum cycles 
+Thu Jul 24 10:56:41 2014    659.5 NOK                  Starting 2 of 20 spectral cycle 
