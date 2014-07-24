@@ -3099,4 +3099,682 @@ Number of photons resonantly scattering n times
 439301 39745 12176  4701  1913   964   495   280   145    88
     57    46    24    14    20     3    10     5     5     1
      1     3     1     1     0     0     0     0     0     0
-     1     0 
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     0437287  6844     0     0 13751 42118     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 437287     0     0     0     0     0     0     0
+     0     0  9144     0     0     0     0     0     0     0
+     0     0 420496     0     0     0     0     0     0     0
+     0     0  7647     0     0     0     0     0     0     0
+     0     0     0  6844     0     0     0 42118     0     0
+     0     0 37437    76     0     0  2626 20560     0     0
+     0 16486 314095  6291     0     0  6329 291534   231     0
+     0 21786 309094  6680     0     0  6900 290353   153     0
+     0 30485 300240  8537     0     0  7458 288170    76     0
+     0 46446 284035 13538     0     0  9602 281308    37     0
+     0 67476 248566 24513     0     0 27726 266643    42     0
+Completed spectrum cycle   4 :  The elapsed TIME was 800.951651
+xxx Thu Jul 24 10:59:02 2014    801.0 OK                   Finished   4 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 10:59:02 2014    801.0 NOK                  Starting 5 of 20 spectral cycle 
+!!Cycle 5 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+495352 73050 18929  6917  2818  1322   677   381   199   111
+    77    46    36    19    21    10    11     4     5     3
+     3     3     1     3     0     0     0     1     0     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+527278 47705 14525  5627  2294  1157   584   325   177   100
+    67    51    31    18    21     6    10     5     5     3
+     2     3     1     3     0     0     1     0     0     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     0524799  8230     0     0 16497 50474     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 524799     0     0     0     0     0     0     0
+     0     0 11020     0     0     0     0     0     0     0
+     0     0 504652     0     0     0     0     0     0     0
+     0     0  9127     0     0     0     0     0     0     0
+     0     0     0  8230     0     0     0 50474     0     0
+     0     0 44838    93     0     0  3134 24657     0     0
+     0 19830 377123  7525     0     0  7557 349241   267     0
+     0 26135 371086  7970     0     0  8294 347880   178     0
+     0 36462 360500 10154     0     0  8928 345411    88     0
+     0 55666 341003 16160     0     0 11466 337203    45     0
+     0 80987 298315 29324     0     0 33191 319674    52     0
+Completed spectrum cycle   5 :  The elapsed TIME was 847.164086
+xxx Thu Jul 24 10:59:48 2014    847.2 OK                   Finished   5 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 10:59:48 2014    847.2 NOK                  Starting 6 of 20 spectral cycle 
+!!Cycle 6 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+577791 85358 22019  8083  3300  1531   799   457   241   138
+    89    51    43    23    23    14    13     4     7     3
+     3     3     1     3     0     0     0     1     1     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+615068 55739 16898  6565  2700  1345   687   398   212   121
+    81    58    34    22    24     9    12     6     6     3
+     2     3     1     3     0     0     1     0     1     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     0612265  9561     0     0 19199 58975     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 612265     0     0     0     0     0     0     0
+     0     0 12864     0     0     0     0     0     0     0
+     0     0 588735     0     0     0     0     0     0     0
+     0     0 10666     0     0     0     0     0     0     0
+     0     0     0  9561     0     0     0 58975     0     0
+     0     0 52292   101     0     0  3647 28892     0     0
+     0 23177 439839  8827     0     0  8821 407802   310     0
+     0 30531 432856  9346     0     0  9688 406151   204     0
+     0 42626 420435 11848     0     0 10432 403333   102     0
+     0 65169 397615 18884     0     0 13382 393672    54     0
+     0 94545 347798 34296     0     0 38765 373312    60     0
+Completed spectrum cycle   6 :  The elapsed TIME was 892.954498
+xxx Thu Jul 24 11:00:34 2014    893.0 OK                   Finished   6 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 11:00:34 2014    893.0 NOK                  Starting 7 of 20 spectral cycle 
+!!Cycle 7 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+660359 97485 25207  9216  3797  1756   904   523   270   159
+   103    60    47    25    26    15    15     7     7     3
+     3     3     2     5     0     0     0     1     1     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+702960 63670 19331  7463  3118  1532   790   454   236   144
+    91    66    38    24    26    10    16     7     6     3
+     2     3     2     5     0     0     1     0     1     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     0699598 11002     0     0 21943 67457     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 699598     0     0     0     0     0     0     0
+     0     0 14693     0     0     0     0     0     0     0
+     0     0 672736     0     0     0     0     0     0     0
+     0     0 12169     0     0     0     0     0     0     0
+     0     0     0 11002     0     0     0 67457     0     0
+     0     0 59720   108     0     0  4182 33030     0     0
+     0 26430 502825 10061     0     0 10113 465982   350     0
+     0 34853 494858 10683     0     0 11067 464072   228     0
+     0 48674 480606 13569     0     0 11936 460860   116     0
+     0 74340 454586 21556     0     0 15312 449906    61     0
+     0 108050 397238 39293     0     0 44457 426655    68     0
+Completed spectrum cycle   7 :  The elapsed TIME was 939.372344
+xxx Thu Jul 24 11:01:21 2014    939.4 OK                   Finished   7 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 11:01:21 2014    939.4 NOK                  Starting 8 of 20 spectral cycle 
+!!Cycle 8 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+743106109522 28324 10345  4275  1995  1003   579   315   175
+   120    68    51    25    27    18    16     7     7     3
+     4     3     2     6     0     0     0     2     1     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+791028 71487 21709  8386  3504  1731   878   508   272   161
+   108    72    41    24    28    12    17     7     6     3
+     3     3     2     6     0     0     1     1     1     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     0787016 12381     0     0 24817 75786     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 787016     0     0     0     0     0     0     0
+     0     0 16485     0     0     0     0     0     0     0
+     0     0 756830     0     0     0     0     0     0     0
+     0     0 13701     0     0     0     0     0     0     0
+     0     0     0 12381     0     0     0 75786     0     0
+     0     0 67138   121     0     0  4721 36992     0     0
+     0 29757 565460 11300     0     0 11391 524110   387     0
+     0 39179 556552 12018     0     0 12444 521959   253     0
+     0 54738 540348 15329     0     0 13436 518423   131     0
+     0 83553 511070 24259     0     0 17220 506232    71     0
+     0 121486 446591 44261     0     0 49985 480004    78     0
+Completed spectrum cycle   8 :  The elapsed TIME was 984.225587
+xxx Thu Jul 24 11:02:05 2014    984.2 OK                   Finished   8 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 11:02:05 2014    984.3 NOK                  Starting 9 of 20 spectral cycle 
+!!Cycle 9 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+825371121906 31531 11492  4772  2243  1095   646   352   198
+   131    77    56    27    31    19    16     7     7     3
+     5     3     2     6     0     0     0     2     1     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+878657 79643 24139  9325  3919  1937   960   570   300   183
+   119    79    46    28    30    13    17     7     6     3
+     4     3     2     6     0     0     1     1     1     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     0874266 13851     0     0 27586 84297     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 874266     0     0     0     0     0     0     0
+     0     0 18304     0     0     0     0     0     0     0
+     0     0 840742     0     0     0     0     0     0     0
+     0     0 15220     0     0     0     0     0     0     0
+     0     0     0 13851     0     0     0 84297     0     0
+     0     0 74802   141     0     0  5217 41183     0     0
+     0 32986 628495 12543     0     0 12681 582589   440     0
+     0 43510 618521 13342     0     0 13867 580206   288     0
+     0 60715 600580 17024     0     0 14942 576327   146     0
+     0 92796 568011 26894     0     0 19212 562744    77     0
+     0 134979 496343 49127     0     0 55650 533551    84     0
+Completed spectrum cycle   9 :  The elapsed TIME was 1028.441576
+xxx Thu Jul 24 11:02:50 2014   1028.4 OK                   Finished   9 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 11:02:50 2014   1028.5 NOK                  Starting 10 of 20 spectral cycle 
+!!Cycle 10 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+907847134075 34777 12675  5236  2460  1187   714   384   218
+   142    83    64    28    33    20    16     8     8     4
+     5     3     2     6     0     0     0     3     1     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+966441 87607 26642 10260  4326  2122  1045   630   330   199
+   128    89    50    29    32    14    17     8     7     4
+     4     3     2     6     0     0     1     2     1     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     0961628 15293     0     0 30375 92704     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 961628     0     0     0     0     0     0     0
+     0     0 20132     0     0     0     0     0     0     0
+     0     0 924735     0     0     0     0     0     0     0
+     0     0 16761     0     0     0     0     0     0     0
+     0     0     0 15293     0     0     0 92704     0     0
+     0     0 82310   157     0     0  5746 45346     0     0
+     0 36271 691398 13794     0     0 13976 640783   476     0
+     0 47857 680493 14673     0     0 15274 638092   309     0
+     0 66863 660703 18708     0     0 16460 633805   159     0
+     0 102191 624804 29538     0     0 21134 618952    79     0
+     0 148572 546068 53978     0     0 61223 586771    86     0
+Completed spectrum cycle  10 :  The elapsed TIME was 1072.829445
+xxx Thu Jul 24 11:03:34 2014   1072.8 OK                   Finished  10 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 11:03:34 2014   1072.9 NOK                  Starting 11 of 20 spectral cycle 
+!!Cycle 11 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+990554146146 37900 13846  5690  2684  1284   777   416   243
+   160    88    66    32    34    20    17     9     9     4
+     5     3     2     6     0     0     0     3     1     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+1054317 95596 29008 11236  4702  2313  1135   682   363   217
+   147    93    54    31    33    14    18    10     7     4
+     4     3     2     6     0     0     1     2     1     0
+     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     01049342 16593     0     0 33150100915     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 1049342     0     0     0     0     0     0     0
+     0     0 21954     0     0     0     0     0     0     0
+     0     0 1009066     0     0     0     0     0     0     0
+     0     0 18322     0     0     0     0     0     0     0
+     0     0     0 16593     0     0     0 100915     0     0
+     0     0 89881   165     0     0  6240 49397     0     0
+     0 39504 754060 15083     0     0 15236 698888   519     0
+     0 52081 742273 16039     0     0 16627 695935   335     0
+     0 72893 720539 20498     0     0 17916 691277   167     0
+     0 111511 681420 32308     0     0 22931 675036    84     0
+     0 161990 595455 58973     0     0 66695 640085    92     0
+Completed spectrum cycle  11 :  The elapsed TIME was 1116.613358
+xxx Thu Jul 24 11:04:18 2014   1116.6 OK                   Finished  11 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 11:04:18 2014   1116.6 NOK                  Starting 12 of 20 spectral cycle 
+!!Cycle 12 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+1073094158226 41196 14979  6157  2909  1411   840   444   259
+   167    93    70    34    37    22    18     9     9     4
+     5     3     2     6     0     0     0     3     1     0
+     1     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+1142040103683 31461 12173  5083  2514  1239   731   388   234
+   153   100    56    33    36    15    19    10     7     4
+     4     3     2     6     0     0     1     2     1     0
+     2     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     01136651 18048     0     0 35917109384     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 1136651     0     0     0     0     0     0     0
+     0     0 23748     0     0     0     0     0     0     0
+     0     0 1093007     0     0     0     0     0     0     0
+     0     0 19896     0     0     0     0     0     0     0
+     0     0     0 18048     0     0     0 109384     0     0
+     0     0 97405   178     0     0  6725 53652     0     0
+     0 42797 816921 16324     0     0 16562 757028   552     0
+     0 56469 804164 17376     0     0 18055 753762   358     0
+     0 79071 780610 22225     0     0 19426 748677   175     0
+     0 120809 738305 34960     0     0 24923 731102    85     0
+     0 175601 645096 63771     0     0 72327 693295    94     0
+Completed spectrum cycle  12 :  The elapsed TIME was 1160.722831
+xxx Thu Jul 24 11:05:02 2014   1160.7 OK                   Finished  12 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 11:05:02 2014   1160.7 NOK                  Starting 13 of 20 spectral cycle 
+!!Cycle 13 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+1155488170414 44512 16150  6616  3156  1504   896   468   277
+   176   101    75    37    37    22    20    10    10     5
+     6     3     2     7     0     0     1     3     2     0
+     1     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+1229694111800 33960 13103  5471  2726  1323   784   403   250
+   161   108    60    36    36    15    22    10     8     5
+     5     3     2     7     0     1     1     2     2     0
+     2     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     01224070 19402     0     0 38685117843     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 1224070     0     0     0     0     0     0     0
+     0     0 25572     0     0     0     0     0     0     0
+     0     0 1177047     0     0     0     0     0     0     0
+     0     0 21451     0     0     0     0     0     0     0
+     0     0     0 19402     0     0     0 117843     0     0
+     0     0 105040   194     0     0  7252 57820     0     0
+     0 46062 879647 17587     0     0 17898 815494   605     0
+     0 60772 865918 18719     0     0 19486 812016   382     0
+     0 85097 840603 23876     0     0 20983 806546   188     0
+     0 129949 795204 37615     0     0 26919 787513    93     0
+     0 189062 694638 68736     0     0 78055 746698   104     0
+Completed spectrum cycle  13 :  The elapsed TIME was 1204.968461
+xxx Thu Jul 24 11:05:46 2014   1205.0 OK                   Finished  13 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 11:05:46 2014   1205.0 NOK                  Starting 14 of 20 spectral cycle 
+!!Cycle 14 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+1238035182615 47721 17232  7081  3388  1613   951   510   296
+   183   114    80    41    40    24    21    12    10     5
+     7     4     2     7     0     0     1     3     2     0
+     1     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+1317703119670 36383 13974  5877  2917  1411   839   435   269
+   166   120    65    40    39    18    22    12     9     5
+     5     4     2     7     0     1     1     2     2     0
+     2     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     01311356 20839     0     0 41493126312     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 1311356     0     0     0     0     0     0     0
+     0     0 27394     0     0     0     0     0     0     0
+     0     0 1260906     0     0     0     0     0     0     0
+     0     0 23056     0     0     0     0     0     0     0
+     0     0     0 20839     0     0     0 126312     0     0
+     0     0 112369   207     0     0  7812 61909     0     0
+     0 49354 942313 18851     0     0 19187 873791   652     0
+     0 65055 927639 20050     0     0 20904 870090   410     0
+     0 91175 900434 25620     0     0 22496 864222   201     0
+     0 139264 851745 40349     0     0 28848 843841   101     0
+     0 202493 744003 73708     0     0 83696 800137   111     0
+Completed spectrum cycle  14 :  The elapsed TIME was 1249.074327
+xxx Thu Jul 24 11:06:30 2014   1249.1 OK                   Finished  14 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 11:06:30 2014   1249.1 NOK                  Starting 15 of 20 spectral cycle 
+!!Cycle 15 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+1320536194887 50905 18363  7552  3609  1712   991   538   313
+   187   121    87    45    43    29    22    13    12     5
+     7     4     2     7     0     1     1     3     2     1
+     1     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+1405530127764 38810 14881  6257  3088  1493   878   459   282
+   171   126    74    43    42    22    23    14    10     5
+     5     4     2     7     0     2     1     2     2     1
+     2     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     01398774 22212     0     0 44275134739     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 1398774     0     0     0     0     0     0     0
+     0     0 29211     0     0     0     0     0     0     0
+     0     0 1344923     0     0     0     0     0     0     0
+     0     0 24640     0     0     0     0     0     0     0
+     0     0     0 22212     0     0     0 134739     0     0
+     0     0 119903   221     0     0  8327 66019     0     0
+     0 52693 1004659 20080     0     0 20498 932239   686     0
+     0 69306 989113 21355     0     0 22340 928306   435     0
+     0 97088 960077 27291     0     0 24060 922121   218     0
+     0 148366 908137 43016     0     0 30815 900411   110     0
+     0 215873 793262 78636     0     0 89335 853630   119     0
+Completed spectrum cycle  15 :  The elapsed TIME was 1293.084477
+xxx Thu Jul 24 11:07:14 2014   1293.1 OK                   Finished  15 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 11:07:14 2014   1293.1 NOK                  Starting 16 of 20 spectral cycle 
+!!Cycle 16 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+1403176207021 54053 19437  8047  3829  1827  1061   580   329
+   197   132    93    50    44    33    23    15    14     7
+     7     4     2     7     1     1     2     3     2     1
+     1     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+1493466135708 41206 15744  6690  3267  1593   933   493   299
+   180   136    81    47    44    24    24    16    12     7
+     5     4     2     7     1     3     1     2     2     1
+     2     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     01486113 23612     0     0 47069143206     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 1486113     0     0     0     0     0     0     0
+     0     0 31039     0     0     0     0     0     0     0
+     0     0 1428907     0     0     0     0     0     0     0
+     0     0 26167     0     0     0     0     0     0     0
+     0     0     0 23612     0     0     0 143206     0     0
+     0     0 127301   232     0     0  8846 70155     0     0
+     0 56038 1067274 21354     0     0 21764 990626   731     0
+     0 73803 1050670 22690     0     0 23739 986428   457     0
+     0 103314 1019867 28974     0     0 25594 979805   233     0
+     0 157856 964650 45681     0     0 32752 956732   116     0
+     0 229520 842600 83514     0     0 95006 907022   125     0
+Completed spectrum cycle  16 :  The elapsed TIME was 1337.035888
+xxx Thu Jul 24 11:07:58 2014   1337.0 OK                   Finished  16 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 11:07:58 2014   1337.1 NOK                  Starting 17 of 20 spectral cycle 
+!!Cycle 17 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+1485507219292 57349 20539  8548  4051  1942  1124   609   354
+   216   138   102    51    47    37    23    15    14     9
+     7     4     2     8     1     1     2     3     2     1
+     1     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+1581038143902 43689 16636  7121  3456  1692   982   522   319
+   198   144    86    49    47    27    24    16    13     8
+     5     4     2     8     1     3     1     2     2     1
+     2     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     01573529 24956     0     0 49840151675     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 1573529     0     0     0     0     0     0     0
+     0     0 32807     0     0     0     0     0     0     0
+     0     0 1513052     0     0     0     0     0     0     0
+     0     0 27670     0     0     0     0     0     0     0
+     0     0     0 24956     0     0     0 151675     0     0
+     0     0 135020   247     0     0  9368 74327     0     0
+     0 59475 1130084 22584     0     0 22992 1049210   787     0
+     0 78336 1112474 23977     0     0 25107 1044746   492     0
+     0 109587 1079804 30610     0     0 27088 1037791   252     0
+     0 167340 1021331 48344     0     0 34667 1013321   129     0
+     0 243007 892485 88361     0     0 100431 960710   138     0
+Completed spectrum cycle  17 :  The elapsed TIME was 1381.312166
+xxx Thu Jul 24 11:08:43 2014   1381.3 OK                   Finished  17 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 11:08:43 2014   1381.3 NOK                  Starting 18 of 20 spectral cycle 
+!!Cycle 18 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+1568265231405 60472 21660  8972  4263  2043  1185   646   371
+   228   148   104    54    50    37    23    16    14     9
+     7     5     2     8     2     1     2     3     2     1
+     1     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+1668998151899 46069 17539  7483  3642  1781  1026   553   338
+   207   153    88    52    50    27    24    17    13     8
+     5     5     2     8     2     3     1     2     2     1
+     2     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     01660981 26356     0     0 52646160017     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 1660981     0     0     0     0     0     0     0
+     0     0 34622     0     0     0     0     0     0     0
+     0     0 1597200     0     0     0     0     0     0     0
+     0     0 29159     0     0     0     0     0     0     0
+     0     0     0 26356     0     0     0 160017     0     0
+     0     0 142431   264     0     0  9865 78442     0     0
+     0 62733 1192527 23830     0     0 24273 1107227   826     0
+     0 82607 1173954 25324     0     0 26527 1102491   513     0
+     0 115626 1139414 32307     0     0 28570 1095235   264     0
+     0 176310 1077802 51071     0     0 36637 1069462   134     0
+     0 256049 941764 93354     0     0 106033 1014072   144     0
+Completed spectrum cycle  18 :  The elapsed TIME was 1425.202029
+xxx Thu Jul 24 11:09:26 2014   1425.2 OK                   Finished  18 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+xxx Thu Jul 24 11:09:26 2014   1425.2 NOK                  Starting 19 of 20 spectral cycle 
+!!Cycle 19 of 20 to calculate a detailed spectrum
+photon_gen: band 1.62e+15 to 3.75e+15 weight 9.16e+27 nphotons 100000 ndisk  93054 nwind   4453 nstar   2493 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+1650786243645 63592 22808  9473  4472  2161  1240   679   390
+   238   151   111    58    53    42    23    16    14    10
+     8     6     2     9     2     1     2     3     2     1
+     1     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+1756857159905 48442 18461  7911  3823  1891  1067   586   350
+   217   155    95    57    52    32    24    17    13     9
+     6     6     2     9     2     3     1     2     2     1
+     2     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     01748349 27798     0     0 55430168423     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 1748349     0     0     0     0     0     0     0
+     0     0 36472     0     0     0     0     0     0     0
+     0     0 1681226     0     0     0     0     0     0     0
+     0     0 30651     0     0     0     0     0     0     0
+     0     0     0 27798     0     0     0 168423     0     0
+     0     0 149909   280     0     0 10392 82562     0     0
+     0 66066 1255408 25065     0     0 25600 1165294   883     0
+     0 86944 1235889 26642     0     0 27910 1160376   555     0
+     0 121770 1199437 34007     0     0 30086 1152737   279     0
+     0 185599 1134541 53797     0     0 38562 1125674   143     0
+     0 269700 991415 98304     0     0 111542 1067204   151     0
+Completed spectrum cycle  19 :  The elapsed TIME was 1469.360687
+xxx Thu Jul 24 11:10:11 2014   1469.4 OK                   Finished  19 of  20 spectrum cycles 
+wind_write sizes: NPLASMA 239 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
+Wrote fb information for data/standard77 to recomb.save for 6 frequency intervals 
+There are  14 elem, 178 ions, 3761 levels, 122 Verner, 108 topbase xsections
+
+Error summary: End of program, Thread 0 only
+Recurrences --  Description
+        7 -- getatomic_data: line input incomplete: %s
+        1 -- wind2d: Cell %3d (%2d,%2d) has %d corners in wind, but zero volume
+       83 -- disk_init: Got to ftot %e at r %e < rmax %e. OK if freqs are high
+Run py_error.py for full error report.
+Thread 0 Finalized. All done
+xxx Thu Jul 24 11:10:11 2014   1469.4 COMPLETE             cv_standard
+Completed entire program.  The elapsed TIME was 1469.387743

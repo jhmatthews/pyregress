@@ -7,7 +7,7 @@
     <string>com.python.run_processing</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/jmatthews/Documents/quick_regression/latest/process</string>
+        <string>/Users/jmatthews/Documents/quick_regression/latest/process.py</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
