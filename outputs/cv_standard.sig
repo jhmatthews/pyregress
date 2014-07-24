@@ -72,3 +72,13 @@ Wed Jul 23 18:49:47 2014   1138.2 OK                   Finished  13 of  20 spect
 Wed Jul 23 18:49:47 2014   1138.3 NOK                  Starting 14 of 20 spectral cycle 
 Wed Jul 23 18:50:30 2014   1181.2 OK                   Finished  14 of  20 spectrum cycles 
 Wed Jul 23 18:50:30 2014   1181.3 NOK                  Starting 15 of 20 spectral cycle 
+Wed Jul 23 18:51:13 2014   1224.2 OK                   Finished  15 of  20 spectrum cycles 
+Wed Jul 23 18:51:13 2014   1224.3 NOK                  Starting 16 of 20 spectral cycle 
+Wed Jul 23 18:51:56 2014   1267.4 OK                   Finished  16 of  20 spectrum cycles 
+Wed Jul 23 18:51:56 2014   1267.5 NOK                  Starting 17 of 20 spectral cycle 
+Wed Jul 23 18:52:40 2014   1311.1 OK                   Finished  17 of  20 spectrum cycles 
+Wed Jul 23 18:52:40 2014   1311.1 NOK                  Starting 18 of 20 spectral cycle 
+Wed Jul 23 18:53:23 2014   1354.4 OK                   Finished  18 of  20 spectrum cycles 
+Wed Jul 23 18:53:23 2014   1354.5 NOK                  Starting 19 of 20 spectral cycle 
+Wed Jul 23 18:54:06 2014   1397.3 OK                   Finished  19 of  20 spectrum cycles 
+Wed Jul 23 18:54:06 2014   1397.3 COMPLETE             cv_standard
