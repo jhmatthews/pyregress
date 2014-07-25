@@ -1,8 +1,0 @@
-#/bin/bash
-
-cd /Users/jmatthews/Documents/quick_regression/latest/outputs
-python ../../scripts/plot_output.py
-
-wait
-
-cp *.png ../plots/

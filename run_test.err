@@ -15,3 +15,18 @@ cp: *.png: No such file or directory
 fatal: pathspec 'outputs/plots/' did not match any files
 To https://github.com/jhmatthews/pyregress
    81369ae..c020b5f  gh-pages -> gh-pages
+From https://github.com/agnwinds/python
+ * branch            dev        -> FETCH_HEAD
+make: mpicc: Command not found
+make: *** [python.o] Error 127
+make: mpicc: Command not found
+make: *** [py_wind.o] Error 127
+Traceback (most recent call last):
+  File "../../scripts/plot_output.py", line 31, in <module>
+    print "VERSION %s" % VERSION
+NameError: name 'VERSION' is not defined
+cp: *.png: No such file or directory
+Traceback (most recent call last):
+  File "/Users/jmatthews/Documents/quick_regression/latest/process.py", line 28, in <module>
+    f = open("outputs/"+name + ".sig")
+IOError: [Errno 2] No such file or directory: 'outputs/fiducial_agn.sig'
