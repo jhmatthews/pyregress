@@ -8,7 +8,7 @@ import os
 
 '''
 usage
- e.g. python plot_output.py sv 
+ e.g. python plot_output.py 
 '''
  
 names = ["fiducial_agn", "cv_standard"]
@@ -35,36 +35,50 @@ for i in range(len(names)):
 
 	name = names[i]
 
-	pf_dict = sub.read_pf(name)
+	pf_dict = sub.read_pf(name)						# read in pf file
 
-	convergence = sub.read_convergence (name)
+	convergence = sub.read_convergence (name)		# get convergence of model
 
 	print "Model %s" % name
 	print "%.2fpc Converged" % (100.0*convergence)
 
-	# run py_wind- only need to runt his to create the files
+	# run py_wind- only need to run this to create the files
 	sub.run_py_wind(VERSION, name)
 
+	p.make_geometry_plot(name)					# make plots of pywind quantities
+
+
+
+	# this is the current dev spectral file
 	s = sub.read_spec_file(name)
 
-	p.make_standard_plot(s, name)
-
-	p.make_components_plot(s, name)
-
+	# this is the benchmark spectral file to test against
 	s_bench = sub.read_spec_file("/Users/jmatthews/Documents/quick_regression/Python_78/%s" % name)
 
-	p.make_residual_plots(s, s_bench, name)
-	p.make_comp_plots(s, s_bench, name)
+	# just make some standard spectrum plots
+	p.make_standard_plot(s, name)
+	p.make_components_plot(s, name)
 
+	p.make_residual_plot(s, s_bench, name)		# make residual plots
+	p.make_comp_plot(s, s_bench, name)			# make comparison plots
+	make_components_comp_plot(s, s_bench, name)	# make components comparison plots
+
+
+
+	# this is the current dev spectot file
 	s = sub.read_spectot_file(name)
 
+	# this is the benchmark spectot file to test against
+	s_bench = sub.read_spectot_file("/Users/jmatthews/Documents/quick_regression/Python_78/%s" % name)
+
 	p.make_log_spec_tot_plot(s, name)
+	p.make_log_spec_tot_comp_plot(s, s_bench, name)
 
-	p.make_geometry_plot(name)
 
 
+# move all the wind data somewhere out the way
 os.system("mkdir wind_data")
 os.system("mv *.dat wind_data/")
-os.system("open -a preview *.png")
+#os.system("open -a preview *.png")
 
 print "all done"

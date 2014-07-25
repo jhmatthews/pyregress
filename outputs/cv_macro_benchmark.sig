@@ -1,7 +1,7 @@
-Thu Jul 24 10:45:41 2014      0.0 START                cv_macro_benchmark 
-Thu Jul 24 10:45:41 2014      0.0 NOK                  Initializing variables for cv_macro_benchmark
-Thu Jul 24 10:45:50 2014      9.0 NOK                  Finished initialization for cv_macro_benchmark
-Thu Jul 24 10:45:50 2014      9.0 NOK                  Starting 0 of 1 ionization cycle 
-Thu Jul 24 10:50:32 2014    290.3 OK                   Finished 0 of 1 ionization cycle 
-Thu Jul 24 10:50:32 2014    290.4 COMMENT              No spectrum   needed: pcycles(0)==pcycles(0)
-Thu Jul 24 10:50:32 2014    290.4 COMPLETE             cv_macro_benchmark
+Fri Jul 25 11:59:58 2014      0.0 START                cv_macro_benchmark 
+Fri Jul 25 11:59:58 2014      0.0 NOK                  Initializing variables for cv_macro_benchmark
+Fri Jul 25 12:00:06 2014      8.5 NOK                  Finished initialization for cv_macro_benchmark
+Fri Jul 25 12:00:06 2014      8.5 NOK                  Starting 0 of 1 ionization cycle 
+Fri Jul 25 12:03:24 2014    206.6 OK                   Finished 0 of 1 ionization cycle 
+Fri Jul 25 12:03:24 2014    206.7 COMMENT              No spectrum   needed: pcycles(0)==pcycles(0)
+Fri Jul 25 12:03:24 2014    206.7 COMPLETE             cv_macro_benchmark

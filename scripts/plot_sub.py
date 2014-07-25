@@ -64,7 +64,59 @@ def make_log_spec_tot_plot(s, name):
 
 	return 0
 
+def make_log_spec_tot_comp_plot(s1, s2, name):
 
+	fig = figure(figsize=(16,8))
+	suptitle("Logspectot: %s (left) v Python 78 (right" % name)
+
+	subplot(121)
+	plot(s1.wavelength, smooth(s1.emitted), label="Emitted")
+	plot(s1.wavelength, smooth(s1.disk), label="Disk")
+	plot(s1.wavelength, smooth(s1.wind), label="Wind")
+	plot(s1.wavelength, smooth(s1.hitsurf), label="HitSurf")
+	plot(s1.wavelength, smooth(s1.scattered), label="Scattered")
+	legend()
+
+	subplot(122)
+	plot(s2.wavelength, smooth(s2.emitted), label="Emitted")
+	plot(s2.wavelength, smooth(s2.disk), label="Disk")
+	plot(s2.wavelength, smooth(s2.wind), label="Wind")
+	plot(s2.wavelength, smooth(s2.hitsurf), label="HitSurf")
+	plot(s2.wavelength, smooth(s2.scattered), label="Scattered")
+	legend()
+
+
+	xlabel("Wavelength")
+	ylabel("Flux")
+	savefig("logspectot_comp_%s.png" % name)
+
+
+
+def make_components_comp_plot(s1, s2, name):
+
+	fig = figure(figsize=(16,8))
+	suptitle("Spectrum components: %s (left) v Python 78 (right" % name)
+
+	subplot(121)
+	plot(s1.wavelength, smooth(s1.emitted), label="Emitted")
+	plot(s1.wavelength, smooth(s1.disk), label="Disk")
+	plot(s1.wavelength, smooth(s1.wind), label="Wind")
+	plot(s1.wavelength, smooth(s1.hitsurf), label="HitSurf")
+	plot(s1.wavelength, smooth(s1.scattered), label="Scattered")
+	legend()
+
+	subplot(122)
+	plot(s2.wavelength, smooth(s2.emitted), label="Emitted")
+	plot(s2.wavelength, smooth(s2.disk), label="Disk")
+	plot(s2.wavelength, smooth(s2.wind), label="Wind")
+	plot(s2.wavelength, smooth(s2.hitsurf), label="HitSurf")
+	plot(s2.wavelength, smooth(s2.scattered), label="Scattered")
+	legend()
+
+
+	xlabel("Wavelength")
+	ylabel("Flux")
+	savefig("components_comp_%s.png" % name)
 
 
 def make_geometry_plot(name):
@@ -119,7 +171,7 @@ def make_geometry_plot(name):
 	return 0
 
 
-def make_residual_plots(s1, s2, name):
+def make_residual_plot(s1, s2, name):
 
 	fig = figure(figsize=(8.3,11.6))
 
@@ -140,7 +192,7 @@ def make_residual_plots(s1, s2, name):
 	return 0
 
 
-def make_comp_plots(s1, s2, name):
+def make_comp_plot(s1, s2, name):
 
 	fig = figure(figsize=(8.3,11.6))
 
