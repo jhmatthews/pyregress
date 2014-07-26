@@ -1,0 +1,14 @@
+Already up-to-date.
+rm -f *.o  *~ 
+YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
+MPI_FLAG= -DMPI_ON
+echo "#define VERSION " \"78a_dev\" > version.h
+echo "#define CHOICE"   1             // Compress plasma as much as possible >> version.h
+mpicc -O3 -Wall -I../../include  -I../../gsl/include -DMPI_ON   -c -o python.o python.c
+rm -f *.o  *~ 
+YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
+MPI_FLAG= -DMPI_ON
+echo "#define VERSION " \"78a_dev\" > version.h
+echo "#define CHOICE"   1             // Compress plasma as much as possible >> version.h
+mpicc -O3 -Wall -I../../include  -I../../gsl/include -DMPI_ON   -c -o py_wind.o py_wind.c
+rm -f *.o  *~ 
