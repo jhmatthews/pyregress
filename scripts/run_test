@@ -1,5 +1,8 @@
 #/bin/bash
 
+: > run_test.out
+: > run_test.err
+
 cd /Users/jmatthews/Documents/Python/progs/python_dev_for_tests 
 git pull origin dev
 make clean

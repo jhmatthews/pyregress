@@ -77,7 +77,7 @@ for i in range(len(names)):
 
 
 # move all the wind data somewhere out the way
-os.system("mkdir wind_data")
+#os.system("mkdir wind_data")
 os.system("mv *.dat wind_data/")
 #os.system("open -a preview *.png")
 

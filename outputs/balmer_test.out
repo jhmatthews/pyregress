@@ -1,0 +1,416 @@
+Thread 0 starting.
+number 11
+balmer_test
+xxx Mon Jul 28 10:38:37 2014      0.0 START                balmer_test 
+!!Python Version 78a_dev 
+This is MPI task number 0 (a total of 1 tasks are running).
+xxx Mon Jul 28 10:38:37 2014      0.0 NOK                  Initializing variables for balmer_test
+Reading data from file balmer_test.pf
+Wind_type(0=SV,1=Sphere,2=Previous,3=Proga,4=Corona,5=knigge,6=homologous,7=yso,8=elvis,9=shell)	  9
+Atomic_data   data/h20
+Get_atomicdata: Reading from masterfile data/h20
+Data of   1 elements,   2 ions,    21 levels,   190 lines, and    20 topbase records
+Macro     1 elements,   2 ions,    21 levels,   190 lines, and    20 topbase records
+Simple    1 elements,   0 ions,     0 levels,     0 lines, and     0 topbase records
+We have read in   0 Dielectronic recombination coefficients
+We have read in   0 Cardona partition functions coefficients
+We have read in   0 Badnell totl Radiative rate coefficients
+We have read in   0 Badnell GS   Radiative rate coefficients over the temp range 0.000000e+00 to 1.000000e+99
+We have read in   0 Scaled electron temperature frequency averaged gaunt factors
+The minimum frequency for photoionization is 8.22e+12
+get_atomic_data: Evaluation:  There are      1 elements     while     50 are currently allowed
+get_atomic_data: Evaluation:  There are      2 ions         while    500 are currently allowed
+get_atomic_data: Evaluation:  There are     21 levels       while  12000 are currently allowed
+get_atomic_data: Evaluation:  There are    190 lines        while 200000 are currently allowed
+get_atomic_data: Evaluation:  There are     21 macro levels while    150 are currently allowed
+get_atomic_data: Evaluation:  The maximum value bb jumps is 19 while 100 are currently allowed
+get_atomic_data: Evaluation:  The maximum value bf jumps is 19 while 100 are currently allowed
+photons_per_cycle	  100000
+Photons_per_cycle adjusted to 100000
+Photons per cycle per MPI task will be 100000
+Ionization_cycles	  1
+spectrum_cycles	  1
+Coord.system(0=spherical,1=cylindrical,2=spherical_polar,3=cyl_var)	  0
+Wind.dim.in.x_or_r.direction	  1
+Wind_ionization(0=on.the.spot,1=LTE,2=fixed,3=recalc_bb,6=pairwise_bb,7=pairwise_pow)	  3
+Line_transfer(0=pure.abs,1=pure.scat,2=sing.scat,3=escape.prob,6=macro_atoms,7=macro_atoms+aniso.scattering)	  7
+Thermal_balance_options(0=everything.on,1=no.adiabatic)	  1
+System_type(0=star,1=binary,2=agn)	  0
+Star_radiation(y=1)	  1
+Disk_radiation(y=1)	  0
+Boundary_layer_radiation(y=1)	  0
+Wind_radiation(y=1)	  1
+python: Using Macro Atom method so switching off wind radiation.
+Rad_type_for_star(0=bb,1=models)_to_make_wind	  0
+NOt Trying to make a start with a power law boundary layer -3
+mstar(msol)	  8.000000e-01
+rstar(cm)	  1.000000e+10
+tstar	  1.000000e+04
+disk.type(0=no.disk,1=standard.flat.disk,2=vertically.extended.disk)	  0
+Torus(0=no,1=yes)	  0
+wind.radmax(cm)	  1.000000e+11
+wind.t.init	  1.110000e+04
+Creating wind with a single shell for testing purposes
+For the shell type wind, we take control of the grid, and need NDIM to be the minimum - 4 - changing
+shell_wind_mdot(msol/yr)	  4.720000e-20
+shell.wind.radmin(cm)	  1.000000e+11
+shell.wind_v_at_rmin(cm)	  1.000000e+00
+shell.wind.v_at_rmax(cm)	  1.000010e+00
+shell.wind.acceleration_exponent	  1.000000e+00
+Geo rmax = 100000000001.000000
+shell rmin=100000000000.000000 shell rmax=100000000001.000000
+dr= 1.000000e-02, root2= 1.414213562373095145474621858739e+00
+ring=0,x=7.071068e+10,r=9.999999999999000549316406250000e+10,speed=1.00000000000000000000e+00,density=1.41535147783245611936e+07
+ring=1,x=7.071068e+10,r=1.000000000000000000000000000000e+11,speed=1.00000000000000000000e+00,density=1.41535147783217281103e+07
+ring=2,x=7.071068e+10,r=1.000000000000100097656250000000e+11,speed=1.00000009992006400061e+00,density=1.41535133640989381820e+07
+ring=3,x=7.071068e+10,r=1.000000000000200042724609375000e+11,speed=1.00000020006217238411e+00,density=1.41535119467337187380e+07
+ring=4,x=7.071068e+10,r=1.000000000000299987792968750000e+11,speed=1.00000029998223638472e+00,density=1.41535105325114950538e+07
+ring=5,x=7.071068e+10,r=1.000000000000400085449218750000e+11,speed=1.00000040012434499026e+00,density=1.41535091151468418539e+07
+ring=6,x=7.071068e+10,r=1.000000000000500030517578125000e+11,speed=1.00000050004440899087e+00,density=1.41535077009251806885e+07
+ring=7,x=7.071068e+10,r=1.000000000000600128173828125000e+11,speed=1.00000060007549507191e+00,density=1.41535062851324491203e+07
+ring=8,x=7.071068e+10,r=1.000000000000700073242187500000e+11,speed=1.00000070010658137498e+00,density=1.41535048693400043994e+07
+ring=9,x=7.071068e+10,r=1.000000000000800018310546875000e+11,speed=1.00000080002664537560e+00,density=1.41535034551191907376e+07
+ring=10,x=7.071068e+10,r=1.000000000000900115966796875000e+11,speed=1.00000090016875398113e+00,density=1.41535020377559550107e+07
+ring=11,x=7.071068e+10,r=1.000000000001000061035156250000e+11,speed=1.00000100008881775970e+00,density=1.41535006235357150435e+07
+ring=12,x=7.071068e+10,r=1.000000000001100006103515625000e+11,speed=1.00000110000888176032e+00,density=1.41534992093157507479e+07
+ring=13,x=7.071068e+10,r=1.000000000001200103759765625000e+11,speed=1.00000120015099036586e+00,density=1.41534977919533643872e+07
+ring=14,x=7.071068e+10,r=1.000000000001300048828125000000e+11,speed=1.00000129984900976154e+00,density=1.41534963808766771108e+07
+ring=15,x=7.071068e+10,r=1.000000000001399993896484375000e+11,speed=1.00000139988009584258e+00,density=1.41534949650862161070e+07
+ring=16,x=7.071068e+10,r=1.000000000001500091552734375000e+11,speed=1.00000149991118214565e+00,density=1.41534935492960289121e+07
+ring=17,x=7.071068e+10,r=1.000000000001600036621093750000e+11,speed=1.00000159983124614627e+00,density=1.41534921350774802268e+07
+ring=18,x=7.071068e+10,r=1.000000000001699981689453125000e+11,speed=1.00000169986233244934e+00,density=1.41534907192878648639e+07
+ring=19,x=7.071068e+10,r=1.000000000001800079345703125000e+11,speed=1.00000179989341853037e+00,density=1.41534893034985326231e+07
+ring=20,x=7.071068e+10,r=1.000000000001900024414062500000e+11,speed=1.00000189992450483345e+00,density=1.41534878877094816417e+07
+ring=21,x=7.071068e+10,r=1.000000000002000122070312500000e+11,speed=1.00000199995559113653e+00,density=1.41534864719207137823e+07
+ring=22,x=7.071068e+10,r=1.000000000002100067138671875000e+11,speed=1.00000209987565513714e+00,density=1.41534850577035825700e+07
+ring=23,x=7.071068e+10,r=1.000000000002200012207031250000e+11,speed=1.00000220001776352063e+00,density=1.41534836403440274298e+07
+ring=24,x=7.071068e+10,r=1.000000000002300109863281250000e+11,speed=1.00000229993782752125e+00,density=1.41534822261274605989e+07
+ring=25,x=7.071068e+10,r=1.000000000002400054931640625000e+11,speed=1.00000240007993612679e+00,density=1.41534808087684754282e+07
+ring=26,x=7.071068e+10,r=1.000000000002500000000000000000e+11,speed=1.00000249999999990536e+00,density=1.41534793945524748415e+07
+ring=27,x=7.071068e+10,r=1.000000000002600097656250000000e+11,speed=1.00000260014210851089e+00,density=1.41534779771940559149e+07
+ring=28,x=7.071068e+10,r=1.000000000002700042724609375000e+11,speed=1.00000270006217251151e+00,density=1.41534765629786197096e+07
+ring=29,x=7.071068e+10,r=1.000000000002799987792968750000e+11,speed=1.00000279987121420966e+00,density=1.41534751503348182887e+07
+ring=30,x=7.071068e+10,r=1.000000000002900085449218750000e+11,speed=1.00000290012434489562e+00,density=1.41534737314059026539e+07
+ring=31,x=7.071068e+10,r=1.000000000003000030517578125000e+11,speed=1.00000300004440889623e+00,density=1.41534723171913139522e+07
+ring=32,x=7.071068e+10,r=1.000000000003100128173828125000e+11,speed=1.00000310007549519931e+00,density=1.41534709014056604356e+07
+ring=33,x=7.071068e+10,r=1.000000000003200073242187500000e+11,speed=1.00000320010658150238e+00,density=1.41534694856202919036e+07
+ring=34,x=7.071068e+10,r=1.000000000003300018310546875000e+11,speed=1.00000329991562297849e+00,density=1.41534680729779060930e+07
+ring=35,x=7.071068e+10,r=1.000000000003400115966796875000e+11,speed=1.00000339994670928156e+00,density=1.41534666571931019425e+07
+ring=36,x=7.071068e+10,r=1.000000000003500061035156250000e+11,speed=1.00000349986677328218e+00,density=1.41534652429799251258e+07
+ring=37,x=7.071068e+10,r=1.000000000003600006103515625000e+11,speed=1.00000359989785958525e+00,density=1.41534638271956890821e+07
+ring=38,x=7.071068e+10,r=1.000000000003700103759765625000e+11,speed=1.00000369992894566629e+00,density=1.41534624114117380232e+07
+ring=39,x=7.071068e+10,r=1.000000000003800048828125000000e+11,speed=1.00000379984900966690e+00,density=1.41534609971994105726e+07
+ring=40,x=7.071068e+10,r=1.000000000003899993896484375000e+11,speed=1.00000389988009596998e+00,density=1.41534595814160238951e+07
+ring=41,x=7.071068e+10,r=1.000000000004000091552734375000e+11,speed=1.00000399991118227305e+00,density=1.41534581656329184771e+07
+ring=42,x=7.071068e+10,r=1.000000000004100036621093750000e+11,speed=1.00000409983124605162e+00,density=1.41534567514214422554e+07
+ring=43,x=7.071068e+10,r=1.000000000004199981689453125000e+11,speed=1.00000419997335465716e+00,density=1.41534553340675607324e+07
+ring=44,x=7.071068e+10,r=1.000000000004300079345703125000e+11,speed=1.00000430011546326270e+00,density=1.41534539167139623314e+07
+ring=45,x=7.071068e+10,r=1.000000000004400024414062500000e+11,speed=1.00000440003552726331e+00,density=1.41534525025033317506e+07
+ring=46,x=7.071068e+10,r=1.000000000004500122070312500000e+11,speed=1.00000450006661334434e+00,density=1.41534510867216456681e+07
+ring=47,x=7.071068e+10,r=1.000000000004600067138671875000e+11,speed=1.00000460009769964742e+00,density=1.41534496709402427077e+07
+ring=48,x=7.071068e+10,r=1.000000000004700012207031250000e+11,speed=1.00000469990674134557e+00,density=1.41534482583018094301e+07
+ring=49,x=7.071068e+10,r=1.000000000004800109863281250000e+11,speed=1.00000480015987203153e+00,density=1.41534468393782805651e+07
+ring=50,x=7.071068e+10,r=1.000000000004900054931640625000e+11,speed=1.00000490007993603214e+00,density=1.41534454251690693200e+07
+ring=51,x=7.071068e+10,r=1.000000000005000000000000000000e+11,speed=1.00000500000000003276e+00,density=1.41534440109601374716e+07
+ring=52,x=7.071068e+10,r=1.000000000005100097656250000000e+11,speed=1.00000510014210863829e+00,density=1.41534425936088077724e+07
+ring=53,x=7.071068e+10,r=1.000000000005200042724609375000e+11,speed=1.00000520006217241686e+00,density=1.41534411794004477561e+07
+ring=54,x=7.071068e+10,r=1.000000000005299987792968750000e+11,speed=1.00000529998223641748e+00,density=1.41534397651923615485e+07
+ring=55,x=7.071068e+10,r=1.000000000005400085449218750000e+11,speed=1.00000539990230041809e+00,density=1.41534383509845640510e+07
+ring=56,x=7.071068e+10,r=1.000000000005500030517578125000e+11,speed=1.00000549982236441870e+00,density=1.41534369367770440876e+07
+ring=57,x=7.071068e+10,r=1.000000000005600128173828125000e+11,speed=1.00000559996447280220e+00,density=1.41534355194271337241e+07
+ring=58,x=7.071068e+10,r=1.000000000005700073242187500000e+11,speed=1.00000569988453680281e+00,density=1.41534341052201818675e+07
+ring=59,x=7.071068e+10,r=1.000000000005800018310546875000e+11,speed=1.00000579991562310589e+00,density=1.41534326894421763718e+07
+ring=60,x=7.071068e+10,r=1.000000000005900115966796875000e+11,speed=1.00000589994670940897e+00,density=1.41534312736644484103e+07
+ring=61,x=7.071068e+10,r=1.000000000006000061035156250000e+11,speed=1.00000599986677318753e+00,density=1.41534298594583515078e+07
+ring=62,x=7.071068e+10,r=1.000000000006100006103515625000e+11,speed=1.00000610000888179307e+00,density=1.41534284421098511666e+07
+ring=63,x=7.071068e+10,r=1.000000000006200103759765625000e+11,speed=1.00000619992894579369e+00,density=1.41534270279043130577e+07
+ring=64,x=7.071068e+10,r=1.000000000006300048828125000000e+11,speed=1.00000630007105439923e+00,density=1.41534256105563845485e+07
+ring=65,x=7.071068e+10,r=1.000000000006399993896484375000e+11,speed=1.00000639999111817779e+00,density=1.41534241963514164090e+07
+ring=66,x=7.071068e+10,r=1.000000000006500091552734375000e+11,speed=1.00000650013322678333e+00,density=1.41534227790040522814e+07
+ring=67,x=7.071068e+10,r=1.000000000006600036621093750000e+11,speed=1.00000660005329078395e+00,density=1.41534213647996485233e+07
+ring=68,x=7.071068e+10,r=1.000000000006699981689453125000e+11,speed=1.00000669997335478456e+00,density=1.41534199505955241621e+07
+ring=69,x=7.071068e+10,r=1.000000000006800079345703125000e+11,speed=1.00000680011546316805e+00,density=1.41534185332490149885e+07
+ring=70,x=7.071068e+10,r=1.000000000006900024414062500000e+11,speed=1.00000689992450486621e+00,density=1.41534171206167973578e+07
+ring=71,x=7.071068e+10,r=1.000000000007000122070312500000e+11,speed=1.00000700006661347174e+00,density=1.41534157032708451152e+07
+ring=72,x=7.071068e+10,r=1.000000000007100067138671875000e+11,speed=1.00000710009769977482e+00,density=1.41534142874965202063e+07
+ring=73,x=7.071068e+10,r=1.000000000007200012207031250000e+11,speed=1.00000720001776355339e+00,density=1.41534128732938133180e+07
+ring=74,x=7.071068e+10,r=1.000000000007300109863281250000e+11,speed=1.00000730015987215893e+00,density=1.41534114559487197548e+07
+ring=75,x=7.071068e+10,r=1.000000000007400054931640625000e+11,speed=1.00000740007993615954e+00,density=1.41534100417465772480e+07
+ring=76,x=7.071068e+10,r=1.000000000007500000000000000000e+11,speed=1.00000749988897785769e+00,density=1.41534086291160527617e+07
+ring=77,x=7.071068e+10,r=1.000000000007600097656250000000e+11,speed=1.00000759992006393873e+00,density=1.41534072133431434631e+07
+ring=78,x=7.071068e+10,r=1.000000000007700042724609375000e+11,speed=1.00000769984012793934e+00,density=1.41534057991418484598e+07
+ring=79,x=7.071068e+10,r=1.000000000007799987792968750000e+11,speed=1.00000779987121424242e+00,density=1.41534043833695054054e+07
+ring=80,x=7.071068e+10,r=1.000000000007900085449218750000e+11,speed=1.00000789990230032345e+00,density=1.41534029675974436104e+07
+ring=81,x=7.071068e+10,r=1.000000000008000030517578125000e+11,speed=1.00000799982236432406e+00,density=1.41534015533969961107e+07
+ring=82,x=7.071068e+10,r=1.000000000008100128173828125000e+11,speed=1.00000809996447292960e+00,density=1.41534001360541693866e+07
+ring=83,x=7.071068e+10,r=1.000000000008200073242187500000e+11,speed=1.00000819988453693021e+00,density=1.41533987218542899936e+07
+ring=84,x=7.071068e+10,r=1.000000000008300018310546875000e+11,speed=1.00000830002664531371e+00,density=1.41533973045120295137e+07
+ring=85,x=7.071068e+10,r=1.000000000008400115966796875000e+11,speed=1.00000839994670931432e+00,density=1.41533958903127163649e+07
+ring=86,x=7.071068e+10,r=1.000000000008500061035156250000e+11,speed=1.00000850008881791986e+00,density=1.41533944729710221291e+07
+ring=87,x=7.071068e+10,r=1.000000000008600006103515625000e+11,speed=1.00000860000888192047e+00,density=1.41533930587722714990e+07
+ring=88,x=7.071068e+10,r=1.000000000008700103759765625000e+11,speed=1.00000870015099030397e+00,density=1.41533916414311509579e+07
+ring=89,x=7.071068e+10,r=1.000000000008800048828125000000e+11,speed=1.00000880007105430458e+00,density=1.41533902272329665720e+07
+ring=90,x=7.071068e+10,r=1.000000000008899993896484375000e+11,speed=1.00000889988009600273e+00,density=1.41533888146064002067e+07
+ring=91,x=7.071068e+10,r=1.000000000009000091552734375000e+11,speed=1.00000900013322691073e+00,density=1.41533873956947904080e+07
+ring=92,x=7.071068e+10,r=1.000000000009100036621093750000e+11,speed=1.00000910005329068930e+00,density=1.41533859814974609762e+07
+ring=93,x=7.071068e+10,r=1.000000000009199981689453125000e+11,speed=1.00000919986233238745e+00,density=1.41533845688717383891e+07
+ring=94,x=7.071068e+10,r=1.000000000009300079345703125000e+11,speed=1.00000930011546329546e+00,density=1.41533831499609798193e+07
+ring=95,x=7.071068e+10,r=1.000000000009400024414062500000e+11,speed=1.00000940003552729607e+00,density=1.41533817357644923031e+07
+ring=96,x=7.071068e+10,r=1.000000000009500122070312500000e+11,speed=1.00000950006661337710e+00,density=1.41533803199969623238e+07
+ring=97,x=7.071068e+10,r=1.000000000009600067138671875000e+11,speed=1.00000959987565507525e+00,density=1.41533789073723740876e+07
+ring=98,x=7.071068e+10,r=1.000000000009700012207031250000e+11,speed=1.00000969990674137833e+00,density=1.41533774916054103523e+07
+ring=99,x=7.071068e+10,r=1.000000000009800109863281250000e+11,speed=1.00000979993782768140e+00,density=1.41533760758387260139e+07
+ring=100,x=7.071068e+10,r=1.000000000009900054931640625000e+11,speed=1.00000989985789145997e+00,density=1.41533746616436596960e+07
+ring=101,x=7.071068e+10,r=1.000000000010000000000000000000e+11,speed=1.00000999988897776305e+00,density=1.41533732458775434643e+07
+ring=102,x=7.071068e+10,r=1.000000000010100097656250000000e+11,speed=1.00001009992006406613e+00,density=1.41533718301117084920e+07
+Column density of hydrogen=1.401191e+07
+There is a star which radiates
+There is no disk in the system 
+There is no boundary layer
+There is no BH 
+Rad_type_for_star(0=bb,1=models,2=uniform)_in_final_spectrum	  0
+spectrum_wavemin	  3.000000e+03
+spectrum_wavemax	  7.000000e+03
+no_observers	  1
+angle(0=pole)	  4.500000e+01
+phase(0=inferior_conjunction)	  5.000000e-01
+live.or.die(0).or.extract(anything_else)	  1
+OK, extracting from specific angles
+Select_specific_no_of_scatters_in_spectra(y/n)   n
+Select_photons_by_position(y/n)   n
+spec.type(flambda(1),fnu(2),basic(other)	  2
+OK, generating fnu at 100 pc
+Extra.diagnostics(0=no)	  0
+Use.standard.care.factors(1=yes)	  1
+Increasing maximum frequency to twice the Helium edge
+Photon.sampling.approach(0=T,1=(f1,f2),2=cv,3=yso,4=user_defined,5=cloudy_test,6=wide,7=AGN,8=logarithmic)	  3
+bands_init: There are 4 bands
+bands_init: band 0,  f1= 2.498e+14,  f2= 3.653e+14, frac=0.00
+bands_init: band 0, eV1= 1.033e+00, eV2= 1.511e+00, frac=0.00
+bands_init: band 0, alpha1=0.399677, alpha2=0.584429, frac=0.00
+bands_init: band 1,  f1= 3.653e+14,  f2= 8.220e+14, frac=0.10
+bands_init: band 1, eV1= 1.511e+00, eV2= 3.400e+00, frac=0.10
+bands_init: band 1, alpha1=0.584429, alpha2=1.314986, frac=0.10
+bands_init: band 2,  f1= 8.220e+14,  f2= 1.451e+15, frac=0.20
+bands_init: band 2, eV1= 3.400e+00, eV2= 6.000e+00, frac=0.20
+bands_init: band 2, alpha1=1.314986, alpha2=2.320699, frac=0.20
+bands_init: band 3,  f1= 1.451e+15,  f2= 2.631e+16, frac=0.20
+bands_init: band 3, eV1= 6.000e+00, eV2= 1.088e+02, frac=0.20
+bands_init: band 3, alpha1=2.320699, alpha2=42.095936, frac=0.20
+freqs_init: Photons will be generated between     1.03 (2.50e+14) and   108.84 (2.63e+16)
+freqs_init: Of 10 starting intervals, 4 will have photons
+freqs_init: test 2.631304e+16 3.162000e+16
+freqs_init: There were 4 final intervals
+freqs_init:     1.03 (2.50e+14)        4.14 (1.00e+15)  
+freqs_init:     4.14 (1.00e+15)       13.08 (3.16e+15)  
+freqs_init:    13.08 (3.16e+15)       41.36 (1.00e+16)  
+freqs_init:    41.36 (1.00e+16)      108.84 (2.63e+16)  
+Old file python.pf.old did not exist
+Could not rename python.pf to python.pf.old
+We are making a thin shell type grid to match a thin shell wind. This is totally aphysical and should only be used for testing purposes
+Cell 0:  inner edge = 9.99999999990000000000e+10, centre = 9.99999999995000000000e+10
+Cell 1:  inner edge = 1.00000000000000000000e+11, centre = 1.00000000000500000000e+11
+Cell 2:  inner edge = 1.00000000001000000000e+11, centre = 1.00000000001500000000e+11
+Cell 3:  inner edge = 1.00000000002000000000e+11, centre = 1.00000000002500000000e+11
+wind2d:   4 cells of which 1 are in inwind, 0 partially in_wind, & 1 with pos. vol
+Allocated        192 bytes for each of     2 elements of       macro totaling        0.0 Mb 
+calloc_estimators: level 0 has n_bbu_jump 19  n_bbd_jump 0 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 1 has n_bbu_jump 18  n_bbd_jump 1 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 2 has n_bbu_jump 17  n_bbd_jump 2 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 3 has n_bbu_jump 16  n_bbd_jump 3 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 4 has n_bbu_jump 15  n_bbd_jump 4 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 5 has n_bbu_jump 14  n_bbd_jump 5 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 6 has n_bbu_jump 13  n_bbd_jump 6 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 7 has n_bbu_jump 12  n_bbd_jump 7 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 8 has n_bbu_jump 11  n_bbd_jump 8 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 9 has n_bbu_jump 10  n_bbd_jump 9 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 10 has n_bbu_jump 9  n_bbd_jump 10 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 11 has n_bbu_jump 8  n_bbd_jump 11 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 12 has n_bbu_jump 7  n_bbd_jump 12 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 13 has n_bbu_jump 6  n_bbd_jump 13 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 14 has n_bbu_jump 5  n_bbd_jump 14 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 15 has n_bbu_jump 4  n_bbd_jump 15 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 16 has n_bbu_jump 3  n_bbd_jump 16 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 17 has n_bbu_jump 2  n_bbd_jump 17 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 18 has n_bbu_jump 1  n_bbd_jump 18 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 19 has n_bbu_jump 0  n_bbd_jump 19 n_bfu_jump 1 n_bfd_jump 0
+calloc_estimators: level 20 has n_bbu_jump 0  n_bbd_jump 0 n_bfu_jump 0 n_bfd_jump 20
+calloc_estimators: size_Jbar_est 190 size_gamma_est 20 size_alpha_est 20
+Got to wind_check
+Wind_check: Punchthrough distance DFUDGE 1.000000e-03 www[1].x[2] 7.071068e+10
+Finished wind check
+wind2d.c: Don't know how to check wind mdot for this coordtype 0
+xxx Mon Jul 28 10:38:38 2014      0.8 NOK                  Finished initialization for balmer_test
+xxx Mon Jul 28 10:38:38 2014      0.8 NOK                  Starting 0 of 1 ionization cycle 
+!!Python: Begining cycle 0 of 1 for defining wind
+Subcycle 0 of 1 in Cycle 0 of 1 for defining wind structure
+photon_gen: band 2.50e+14 to 3.65e+14 weight 1.35e+28 nphotons 4278 ndisk      0 nwind      0 nstar   4278 npow 0 
+photon_gen: band 3.65e+14 to 8.22e+14 weight 9.49e+27 nphotons 33861 ndisk      0 nwind      0 nstar  33861 npow 0 
+photon_gen: band 8.22e+14 to 1.45e+15 weight 6.33e+27 nphotons 37765 ndisk      0 nwind      0 nstar  37765 npow 0 
+photon_gen: band 1.45e+15 to 2.63e+16 weight 2.29e+27 nphotons 24096 ndisk      0 nwind      0 nstar  24096 npow 0 
+NSH Geo.n_ioniz=4.360168e+39
+!!python: Total photon luminosity before transphot 6.733039061701e+32
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+!!python: Total photon luminosity after transphot 6.733039061701e+32 (diff 0.000000000000e+00). Radiated luminosity 6.733039061701e+32
+Luminosity taken up by adiabatic kpkt destruction 0.000000000000e+00 number of packets 0
+NSH Geo.n_ioniz=4.360168e+39
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+100000     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+100000     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     0100000     0     0     0     0     0     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 100000     0     0     0     0     0     0     0
+     0     0 100000     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+Zeroth thread successfully received the normalised estimators. About to broadcast.
+Thread 0 happy after broadcast.
+Zeroth thread successfully received the integer sum. About to broadcast.
+!!python: Number of ionizing photons 4.36017e+39 lum of ionizing photons 1.03014e+29
+Reading Windfile recomb.save created with python version 78a_dev with python version 78a_dev
+Reading fb information for data/standard77 
+There are  14 elem, 178 ions, 3761 levels, 122 Verner, 108 topbase, and 10 freq intervals
+fb_read: Different atomic_filename
+init_freebound: Creating recombination coefficients
+init_freebound: Creating recombination emissivites between 0.000000e+00 and 1.000000e+50
+MPI task 0 is working on cells 0 to max 1 (total size 1).
+MPI task 0 broadcasting plasma update information.
+MPI task 0 survived broadcasting plasma update information.
+!!wind_update: Absorbed flux    9.91e+10  (photo 1.38e+10 ff 2.72e+09 compton 4.29e+10 induced_compton 5.01e+06 lines 3.96e+10)
+!!wind_update: Wind heating    9.91e+10  (photo 1.38e+10 ff 2.72e+09 compton 4.29e+10 induced_compton 5.01e+06 lines 3.96e+10 adiabatic 0.00e+00)
+!!wind_update: Wind luminosity  1.39e+13 (recomb 1.05e+13 ff 3.31e+12 lines 2.13e+10) after update
+!!wind_update: Wind cooling     1.40e+13 (recomb 1.05e+13 ff 3.31e+12 compton 1.11e+11 DR 0.00e+00 lines 2.13e+10 adiabatic 0.00e+00) after update
+!!wind_update: Max change in t_r   -654 at cell    0 (0,0)
+!!wind_update: Ave change in t_r   -654 from  11100 to  10446
+!!wind_update: Max change in t_e  -1498 at cell    0 (0,0)
+!!wind_update: Ave change in t_e  -1498 from   9990 to   8492
+Summary  t_e    8492    -1498  #t_e and dt_e on this update
+Summary  t_r   10446     -654  #t_r and dt_r on this update
+!!Check_converging:    0 (0.000) converged and    1 (1.000) converging of 1 cells
+!!Check_convergence_breakdown: t_r    1 t_e(real)    0 t_e(maxed)    0 hc(real)    0
+Summary  convergence    0 0.000     1  1.000  1  #  n_converged fraction_converged  converging fraction_converging total cells
+Warning: Since coord type is not cylindrical, next print out may look odd
+
+ T rad
+   z\x   7.07e+10 7.07e+10 7.07e+10 7.07e+10 
+7.07e+10        0    1e+04        0        0 
+
+ T e
+   z\x   7.07e+10 7.07e+10 7.07e+10 7.07e+10 
+7.07e+10        0  8.5e+03        0        0 
+Band 0 f1 2.498271e+14 f2 1.000000e+15 model -1 pl_alpha 0.000000 pl_log_w -1.000000e+99 exp_t 3.000000e+04 exp_w 0.000000e+00
+Band 1 f1 1.000000e+15 f2 3.162000e+15 model -1 pl_alpha 0.000000 pl_log_w -1.000000e+99 exp_t 3.000000e+04 exp_w 0.000000e+00
+Band 2 f1 3.162000e+15 f2 1.000000e+16 model -1 pl_alpha 0.000000 pl_log_w -1.000000e+99 exp_t 3.000000e+04 exp_w 0.000000e+00
+Band 3 f1 1.000000e+16 f2 2.631304e+16 model -1 pl_alpha 0.000000 pl_log_w -1.000000e+99 exp_t 3.000000e+04 exp_w 0.000000e+00
+OUTPUT Lum_agn= 0.000000e+00 T_e= 8.491500e+03 N_h= 1.415344e+07 N_e= 1.415296e+07 alpha= 0.000000 IP(sim_2010)= 0.000000e+00 Meaured_IP(cloudy)= 8.394130e-02 distance= 1.000000e+11 volume= 1.256638e+23 mean_ds=1.002259e+00
+OUTPUT Absorbed_flux(ergs-1cm-3)    7.88e-13  (photo 1.10e-13 ff 2.16e-14 compton 3.41e-13 induced_compton 3.99e-17 lines 3.15e-13 )
+OUTPUT Wind_cooling(ergs-1cm-3)     1.11e-10 (recomb 8.40e-11 ff 2.63e-11 compton 8.86e-13 DR 0.00e+00 adiabatic 0.00e+00 lines 1.69e-13 ) after update
+OUTPUT Wind_line_cooling(ergs-1cm-3)  HHe 0.00e+00 Metals 0.00e+00
+OUTPUT Balance      Cooling=1.40e+13 Heating=9.91e+10 Lum=1.39e+13 T_e=8.491500e+03 after update
+OUTPUT H      3.40e-05 1.00e+00
+Completed ionization cycle 0 :  The elapsed TIME was 1.221616
+xxx Mon Jul 28 10:38:38 2014      1.3 OK                   Finished 0 of 1 ionization cycle 
+wind_write sizes: NPLASMA 1 size_Jbar_est 190 size_gamma_est 20 size_alpha_est 20 nlevels_macro 21
+ Completed wind creation.  The elapsed TIME was 1.265868
+xxx Mon Jul 28 10:38:38 2014      1.3 NOK                  Starting 0 of 1 spectral cycle 
+!!Cycle 0 of 1 to calculate a detailed spectrum
+Calculating macro atom emissivities- this might take a while...
+Thread 0 is calculating macro atom emissivities for macro atoms 0 to 1
+Thread 0 is calculating  macro atom emissivity for macro atom       0 of       1 or  0.000 per cent
+MPI task 0 is working on matoms 0 to max 1 (total size 1).
+MPI task 0 broadcasting matom emissivity information.
+MPI task 0 survived broadcasting matom emissivity information.
+Macro Atom level emissivities (summed over cells): n 0 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed over cells): n 1 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed over cells): n 2 matom_abs 0.0000e+00 matom_emiss 1.3899e+09
+Macro Atom level emissivities (summed over cells): n 3 matom_abs 0.0000e+00 matom_emiss 5.5412e+08
+Macro Atom level emissivities (summed over cells): n 4 matom_abs 0.0000e+00 matom_emiss 3.0319e+08
+Macro Atom level emissivities (summed over cells): n 5 matom_abs 0.0000e+00 matom_emiss 1.8505e+08
+Macro Atom level emissivities (summed over cells): n 6 matom_abs 0.0000e+00 matom_emiss 1.2065e+08
+Macro Atom level emissivities (summed over cells): n 7 matom_abs 0.0000e+00 matom_emiss 8.5807e+07
+Macro Atom level emissivities (summed over cells): n 8 matom_abs 0.0000e+00 matom_emiss 6.2827e+07
+Macro Atom level emissivities (summed over cells): n 9 matom_abs 0.0000e+00 matom_emiss 4.9094e+07
+Macro Atom level emissivities (summed over cells): n 10 matom_abs 0.0000e+00 matom_emiss 3.7983e+07
+Macro Atom level emissivities (summed over cells): n 11 matom_abs 0.0000e+00 matom_emiss 2.8521e+07
+Macro Atom level emissivities (summed over cells): n 12 matom_abs 0.0000e+00 matom_emiss 2.2709e+07
+Macro Atom level emissivities (summed over cells): n 13 matom_abs 0.0000e+00 matom_emiss 1.8924e+07
+Macro Atom level emissivities (summed over cells): n 14 matom_abs 0.0000e+00 matom_emiss 1.5328e+07
+Macro Atom level emissivities (summed over cells): n 15 matom_abs 0.0000e+00 matom_emiss 1.1787e+07
+Macro Atom level emissivities (summed over cells): n 16 matom_abs 0.0000e+00 matom_emiss 1.0111e+07
+Macro Atom level emissivities (summed over cells): n 17 matom_abs 0.0000e+00 matom_emiss 7.4885e+06
+Macro Atom level emissivities (summed over cells): n 18 matom_abs 0.0000e+00 matom_emiss 7.4344e+06
+Macro Atom level emissivities (summed over cells): n 19 matom_abs 0.0000e+00 matom_emiss 6.5152e+06
+Macro Atom level emissivities (summed over cells): n 20 matom_abs 7.7314e+10 matom_emiss 3.1534e+09
+Kpkt emissivities (summed over cells): kpkt_abs 5.7857e+10 kpkt_emiss 1.2144e+10
+Totals: f_matom 6.070799e+09 f_kpkt 1.214410e+10
+photon_gen: band 4.28e+14 to 9.99e+14 weight 3.81e+27 nphotons 100000 ndisk      0 nwind      0 nstar 100000 npow 0 
+
+Photon       0 of  100000 or  0.000 per cent 
+Photon   50000 of  100000 or 50.000 per cent 
+
+
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times
+100000     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+Number of photons resonantly scattering n times
+100000     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0
+No of photons and their fates
+     0     0100000     0     0     0     0     0     0     0
+
+Photons contributing to the various spectra
+Inwin  Scat  Esc   Star  >nscat  err  Absor  Disk  sec  Adiab(matom)
+     0     0 100000     0     0     0     0     0     0     0
+     0     0 100000     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0
+     0     0 50246 49754     0     0     0     0     0     0
+Completed spectrum cycle   0 :  The elapsed TIME was 7.539630
+xxx Mon Jul 28 10:38:44 2014      7.5 OK                   Finished   0 of   1 spectrum cycles 
+wind_write sizes: NPLASMA 1 size_Jbar_est 190 size_gamma_est 20 size_alpha_est 20 nlevels_macro 21
+Wrote fb information for data/h20 to recomb.save for 1 frequency intervals 
+There are  1 elem, 2 ions, 21 levels, 0 Verner, 20 topbase xsections
+
+Error summary: End of program, Thread 0 only
+Recurrences --  Description
+        1 -- For the shell type wind, we take control of the grid, and need NDIM to be the minimum - 4 - changing
+        1 -- wind2d.c: Don't know how to check wind mdot for this coordtype %d
+Run py_error.py for full error report.
+Thread 0 Finalized. All done
+xxx Mon Jul 28 10:38:44 2014      7.6 COMPLETE             balmer_test
+Completed entire program.  The elapsed TIME was 7.595848
