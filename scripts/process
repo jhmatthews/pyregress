@@ -3,7 +3,7 @@
 cd /Users/jmatthews/Documents/quick_regression/latest/outputs
 python /Users/jmatthews/Documents/quick_regression/latest/scripts/plot_output.py
 
-python /Users/jmatthews/Documents/quick_regression/latest/scripts/py_error.py cv_benchmark > /Users/jmatthews/Documents/quick_regression/latest/error_summary.out
+python /Users/jmatthews/Documents/quick_regression/latest/scripts/py_error.py cv_standard > /Users/jmatthews/Documents/quick_regression/latest/error_summary.out
 python /Users/jmatthews/Documents/quick_regression/latest/scripts/py_error.py fiducial_agn >> /Users/jmatthews/Documents/quick_regression/latest/error_summary.out
 
 wait

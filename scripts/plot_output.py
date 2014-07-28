@@ -61,7 +61,7 @@ for i in range(len(names)):
 
 	p.make_residual_plot(s, s_bench, name)		# make residual plots
 	p.make_comp_plot(s, s_bench, name)			# make comparison plots
-	make_components_comp_plot(s, s_bench, name)	# make components comparison plots
+	p.make_components_comp_plot(s, s_bench, name)	# make components comparison plots
 
 
 
