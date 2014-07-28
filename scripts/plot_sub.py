@@ -151,24 +151,79 @@ def make_geometry_plot(name):
 	fig = figure(figsize=(16.6,11.6))
 	suptitle("Ions: %s (left) v Python 78 (right)" % name)
 	for i in range(len(var)):
-		subplot(4,4,locs[i])
-		x, z, value = sub.read_pywind_smart("%s.%s.dat" % (name, var[i]) )
-		contourf(z,x,np.log10(value) )
+		subplot(8,4,locs[i])
+		x, z, value1 = sub.read_pywind_smart("%s.%s.dat" % (name, var[i]) )
+		contourf(z,x,np.log10(value1) )
 		loglog()
 		title("LOG " + var[i])
 		colorbar()
 
-		subplot(4,4,locs[i]+2)
-		x, z, value = sub.read_pywind_smart("../../Python_78/wind_data/%s.%s.dat" % (name, var[i]) )
-		contourf(z,x,np.log10(value) )
+		subplot(8,4,locs[i]+2)
+		x, z, value2 = sub.read_pywind_smart("../../Python_78/wind_data/%s.%s.dat" % (name, var[i]) )
+		contourf(z,x,np.log10(value2) )
 		loglog()
 		title("LOG " + var[i])
 		colorbar()
+
+
 
 	savefig("ions_%s.png" % name)
 	clf()
 
 	return 0
+
+
+
+
+def make_geometry_ratios(name):
+
+	# read electron density from the file - could also try e.g. te or ionC4
+	var = ["te", "tr", "ne", "nphot", "ioncH1", "ioncH2", "IP", "tot_lum"]
+
+
+	figure(figsize=(8.3,11.6))
+	suptitle("Difference Ratios Geometry: %s (left) v Python 78 (right)" % name)
+	cont = [0.75,0.9,0.95,0.99,1.0,1.01,1.05,1.1, 1.25]
+
+	for i in range(len(var)):
+
+		subplot(4,2,i+1)
+		x, z, value1 = sub.read_pywind_smart("%s.%s.dat" % (name, var[i]) )
+		x, z, value2 = sub.read_pywind_smart("../../Python_78/wind_data/%s.%s.dat" % (name, var[i]) )
+
+		print np.mean(value2/value1), var[i]
+
+		contourf(z,x, value2/value1, cont, extend="both")
+		loglog()
+		title("LOG " + var[i])
+		colorbar()
+
+	savefig("geo_diff_%s.png" % name)
+	clf()
+
+
+	var = ["ionHe1", "ionHe2", "ionC3", "ionC4", "ionC5", "ionN5", "ionO6", "ionSi4"]
+	figure(figsize=(8.3,11.6))
+	suptitle("Difference Ratios Ions: %s (left) v Python 78 (right)" % name)
+
+	for i in range(len(var)):
+
+		subplot(4,2,i+1)
+		x, z, value1 = sub.read_pywind_smart("%s.%s.dat" % (name, var[i]) )
+		x, z, value2 = sub.read_pywind_smart("../../Python_78/wind_data/%s.%s.dat" % (name, var[i]) )
+
+		contourf(z,x,value2/value1, cont, extend="both")
+		loglog()
+		title("LOG " + var[i])
+		colorbar()
+
+
+
+	savefig("ions_diff_%s.png" % name)
+	clf()
+
+	return 0
+
 
 
 def make_residual_plot(s1, s2, name):

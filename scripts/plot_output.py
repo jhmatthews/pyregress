@@ -46,7 +46,7 @@ for i in range(len(names)):
 	sub.run_py_wind(VERSION, name)
 
 	p.make_geometry_plot(name)					# make plots of pywind quantities
-
+	p.make_geometry_ratios(name)
 
 
 	# this is the current dev spectral file
