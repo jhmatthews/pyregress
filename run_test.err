@@ -11,3 +11,10 @@ Traceback (most recent call last):
     fh = iter(open(fname, 'U'))
 IOError: [Errno 2] No such file or directory: 'fiducial_agn.te.dat'
 cp: *.png: No such file or directory
+To https://github.com/jhmatthews/pyregress
+ ! [rejected]        gh-pages -> gh-pages (non-fast-forward)
+error: failed to push some refs to 'https://github.com/jhmatthews/pyregress'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.

@@ -1,3 +1,6 @@
 VERSION 78a_dev
 Model fiducial_agn
 79.80pc Converged
+[gh-pages fdf7bd9] Regression test for 2014-07-29
+ 3 files changed, 16 insertions(+)
+Every run completed
