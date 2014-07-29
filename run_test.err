@@ -1,0 +1,13 @@
+/Users/jmatthews/Documents/quick_regression/latest/scripts/run_test: line 3: run_test.out: Permission denied
+sh: py_wind78a_dev: command not found
+Traceback (most recent call last):
+  File "/Users/jmatthews/Documents/quick_regression/latest/scripts/plot_output.py", line 48, in <module>
+    p.make_geometry_plot(name)					# make plots of pywind quantities
+  File "/Users/jmatthews/Documents/quick_regression/latest/scripts/plot_sub.py", line 133, in make_geometry_plot
+    x, z, value = sub.read_pywind_smart("%s.%s.dat" % (name, var[i]) )
+  File "/Users/jmatthews/Documents/quick_regression/latest/scripts/read_sub.py", line 124, in read_pywind_smart
+    d = np.loadtxt(filename, comments="#", dtype = "float", unpack = True)
+  File "/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py", line 724, in loadtxt
+    fh = iter(open(fname, 'U'))
+IOError: [Errno 2] No such file or directory: 'fiducial_agn.te.dat'
+cp: *.png: No such file or directory
