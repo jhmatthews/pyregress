@@ -106,7 +106,7 @@ def run_py_wind (vers, fname, cmds=None, ilv=None):
 	np.savetxt("_tempcmd.txt", x, fmt = "%s")
 
 
-	isys = os.system('py_wind'+vers+' '+fname+' < _tempcmd.txt > tempfile &')
+	isys = os.system('/Users/jmatthews/Documents/Python/bin/py_wind'+vers+' '+fname+' < _tempcmd.txt > tempfile &')
 	time.sleep(3)
 
 	# remove temporary file
