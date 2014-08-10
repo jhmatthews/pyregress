@@ -280,3 +280,28 @@ Model cv_standard
 1.00075165161 IP
 1.07613512331 tot_lum
 all done
+[gh-pages 1c3fd87] Regression test for 2014-08-09
+ 2 files changed, 38 insertions(+)
+Every run completed
+VERSION 78a_dev
+Model fiducial_agn
+79.80pc Converged
+1.02231217716 te
+2.72097640011 tr
+22659.6865169 ne
+1.00817488204 nphot
+196138.415145 ioncH1
+1001.96165146 ioncH2
+114.569000905 IP
+15.1913569146 tot_lum
+Model cv_standard
+90.00pc Converged
+1.02384030368 te
+1.00052020887 tr
+0.999967167419 ne
+0.999593049894 nphot
+0.987464212323 ioncH1
+1.0 ioncH2
+1.00075165161 IP
+1.07613512331 tot_lum
+all done
