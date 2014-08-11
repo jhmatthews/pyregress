@@ -8,4 +8,4 @@ python /Users/jmatthews/Documents/quick_regression/latest/scripts/py_error.py fi
 
 wait
 
-cp *.png ../plots/
+cp /Users/jmatthews/Documents/quick_regression/latest/outputs/*.png /Users/jmatthews/Documents/quick_regression/latest/plots/

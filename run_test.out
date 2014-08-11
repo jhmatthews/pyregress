@@ -330,3 +330,6 @@ Model cv_standard
 1.00075165161 IP
 1.07613512331 tot_lum
 all done
+[gh-pages e43bed3] Regression test for 2014-08-11
+ 2 files changed, 38 insertions(+)
+Every run completed
