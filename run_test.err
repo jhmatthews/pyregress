@@ -1,9 +1,24 @@
 From https://github.com/agnwinds/python
  * branch            dev        -> FETCH_HEAD
 make: mpicc: Command not found
+/bin/sh: mpicc: command not found
+expr: syntax error
+make: mpicc: Command not found
+/bin/sh: mpicc: command not found
+expr: syntax error
+make: mpicc: Command not found
 make: *** [python.o] Error 127
 make: mpicc: Command not found
+/bin/sh: mpicc: command not found
+expr: syntax error
+make: mpicc: Command not found
+/bin/sh: mpicc: command not found
+expr: syntax error
+make: mpicc: Command not found
 make: *** [py_wind.o] Error 127
+make: mpicc: Command not found
+/bin/sh: mpicc: command not found
+expr: syntax error
 Traceback (most recent call last):
   File "/Users/jmatthews/Documents/quick_regression/latest/scripts/plot_output.py", line 32, in <module>
     print "VERSION %s" % VERSION
