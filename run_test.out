@@ -1,18 +1,4 @@
-Updating f480fdf..2949341
-Fast-forward
- Makefile     |   62 ++++++++++++++++++++++++++++++++++++++++++++++++++--------
- anisowind.c  |    3 ---
- cylind_var.c |    1 +
- ionization.c |    8 +-------
- lines.c      |   14 ++-----------
- matom.c      |    6 ++----
- pdf.c        |    8 ++------
- radiation.c  |    4 +---
- recipes.c    |    1 +
- resonate.c   |    3 +--
- spherical.c  |    3 +--
- wind2d.c     |    5 +----
- 12 files changed, 67 insertions(+), 51 deletions(-)
+Already up-to-date.
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
