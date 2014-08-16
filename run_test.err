@@ -23,3 +23,4 @@ Traceback (most recent call last):
   File "/Users/jmatthews/Documents/quick_regression/latest/scripts/plot_output.py", line 32, in <module>
     print "VERSION %s" % VERSION
 NameError: name 'VERSION' is not defined
+cp: /Users/jmatthews/Documents/quick_regression/latest/outputs/*.png: No such file or directory
