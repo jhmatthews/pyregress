@@ -1,4 +1,7 @@
-Already up-to-date.
+Updating 2949341..4573832
+Fast-forward
+ recomb.c |    4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
