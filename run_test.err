@@ -1,5 +1,5 @@
-From https://github.com/agnwinds/python
- * branch            dev        -> FETCH_HEAD
+error: Could not resolve host: (nil); nodename nor servname provided, or not known while accessing https://github.com/agnwinds/python.git/info/refs
+fatal: HTTP request failed
 make: mpicc: Command not found
 /bin/sh: mpicc: command not found
 expr: syntax error
