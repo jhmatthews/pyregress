@@ -1,9 +1,4 @@
-Updating 4573832..ebc5922
-Fast-forward
- pi_rates.c |  327 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- python.c   |   16 ++-
- 2 files changed, 340 insertions(+), 3 deletions(-)
- create mode 100644 pi_rates.c
+Already up-to-date.
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
