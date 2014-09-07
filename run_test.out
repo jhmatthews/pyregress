@@ -1,9 +1,10 @@
-Updating 0a0fc57..22fd39e
+Updating 22fd39e..8a15fee
 Fast-forward
- .travis.yml |    2 +-
- python.c    |    6 +++++-
- resonate.c  |    1 +
- 3 files changed, 7 insertions(+), 2 deletions(-)
+ python.c   |    6 +++++-
+ python.h   |   14 +++++++++-----
+ resonate.c |   17 ++++++++++++++---
+ wind2d.c   |    5 +++--
+ 4 files changed, 31 insertions(+), 11 deletions(-)
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
