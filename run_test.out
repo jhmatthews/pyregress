@@ -1,10 +1,4 @@
-Updating 22fd39e..8a15fee
-Fast-forward
- python.c   |    6 +++++-
- python.h   |   14 +++++++++-----
- resonate.c |   17 ++++++++++++++---
- wind2d.c   |    5 +++--
- 4 files changed, 31 insertions(+), 11 deletions(-)
+Already up-to-date.
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
