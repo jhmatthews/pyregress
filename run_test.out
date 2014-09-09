@@ -1,4 +1,8 @@
-Already up-to-date.
+Updating 8a15fee..8e4826a
+Fast-forward
+ python.c         |   18 ++++++++++++++----
+ wind_updates2d.c |    2 +-
+ 2 files changed, 15 insertions(+), 5 deletions(-)
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
