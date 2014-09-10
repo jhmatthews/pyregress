@@ -1,8 +1,8 @@
-Updating 8a15fee..8e4826a
+Updating 8e4826a..b6d3ded
 Fast-forward
- python.c         |   18 ++++++++++++++----
- wind_updates2d.c |    2 +-
- 2 files changed, 15 insertions(+), 5 deletions(-)
+ models.h |    1 +
+ python.c |   18 ++++++++++++------
+ 2 files changed, 13 insertions(+), 6 deletions(-)
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
