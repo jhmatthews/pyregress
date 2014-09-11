@@ -1,8 +1,4 @@
-Updating 8e4826a..b6d3ded
-Fast-forward
- models.h |    1 +
- python.c |   18 ++++++++++++------
- 2 files changed, 13 insertions(+), 6 deletions(-)
+Already up-to-date.
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
