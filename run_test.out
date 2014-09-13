@@ -1,4 +1,13 @@
-Already up-to-date.
+Updating b6d3ded..06339d7
+Fast-forward
+ extract.c    |   20 +++---
+ photon_gen.c |   14 ++--
+ python.c     |   12 ++--
+ python.h     |   24 ++++---
+ spectra.c    |  207 +++++++++++++++++++++++++++-------------------------------
+ sv.c         |    4 +-
+ windsave.c   |    8 +--
+ 7 files changed, 139 insertions(+), 150 deletions(-)
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
