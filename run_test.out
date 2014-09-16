@@ -1,19 +1,21 @@
-Updating 06339d7..74364c5
+Updating 74364c5..0c3bf55
 Fast-forward
- wind_updates2d.c |   75 +++++++++++++++++++++++++++++++-----------------------
- 1 file changed, 43 insertions(+), 32 deletions(-)
+ Makefile     |    4 ++--
+ photon_gen.c |    4 ++--
+ python.c     |   76 ++++++++++++++++++++++++----------------------------------
+ 3 files changed, 35 insertions(+), 49 deletions(-)
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
 MPI_FLAG= -DMPI_ON
-echo "#define VERSION " \"78a\" > version.h
+echo "#define VERSION " \"78b_dev\" > version.h
 echo "#define CHOICE"   1             // Compress plasma as much as possible >> version.h
 mpicc -O3 -Wall  -I../../include -I../../gsl/include -DMPI_ON   -c -o python.o python.c
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
 MPI_FLAG= -DMPI_ON
-echo "#define VERSION " \"78a\" > version.h
+echo "#define VERSION " \"78b_dev\" > version.h
 echo "#define CHOICE"   1             // Compress plasma as much as possible >> version.h
 mpicc -O3 -Wall  -I../../include -I../../gsl/include -DMPI_ON   -c -o py_wind.o py_wind.c
 rm -f *.o  *~ 
