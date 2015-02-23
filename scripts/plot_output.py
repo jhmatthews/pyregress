@@ -1,5 +1,6 @@
 #!/Library/Frameworks/Python.framework/Versions/2.7/bin/python
-import read_sub as sub
+#import read_sub as sub
+import py_read_output as rd 
 import plot_sub as p
 from pylab import * 
 import numpy as np 
@@ -11,10 +12,10 @@ usage
  e.g. python plot_output.py 
 '''
  
-names = ["fiducial_agn", "cv_standard"]
+#names = ["fiducial_agn", "cv_standard"]
 #names = ["cv_standard"]
 #names = ["fiducial_agn"]
-
+names = 
 
 try:
 	f = open("cv_standard.out", "r")
@@ -25,7 +26,7 @@ try:
 				VERSION = data[2]
 except IOError:
 	print "Couldn't read version"
-	VERSION="78a_dev"
+	VERSION=""
 	
 
 

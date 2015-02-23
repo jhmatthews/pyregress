@@ -1,5 +1,6 @@
 #!/bin/bash
-# script to send simple email 
+# script to send simple email to me telling me something has failed.
+# hopefully will never run...!
 # email subject
 SUBJECT="Failed run"
 # Email To ?

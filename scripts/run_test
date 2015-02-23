@@ -1,23 +1,44 @@
-#/bin/bash
+#!/bin/sh
 
-: > /Users/jmatthews/Documents/quick_regression/latest/run_test.out
-: > /Users/jmatthews/Documents/quick_regression/latest/run_test.err
+# First make sure the error and output files are empty.
+: > $PYTEST/run_test.out
+: > $PYTEST/run_test.err
 
-cd /Users/jmatthews/Documents/Python/progs/python_dev_for_tests 
+# cd into $PYTHON_TEST_VERSION/source, cp to a directory in $PYTHON and make python 
+cd $PYTHON_TEST_VERSION/source
+git checkout dev
 git pull origin dev
+cp *.c *.h Makefile $PYTHON/source_for_tests/
+cp ../examples/*.pf $PYTEST/output/
+cd $PYTHON/source_for_tests/
 make clean
-make python
+make VERSION=test python
 make clean
-make py_wind 
+make VERSION=test py_wind 
 make clean
 
+# next commented out section could be uncommented if you wanted to test against the release branch
+# cd $PYTHON_TEST_VERSION/source
+# git checkout release
+# git pull origin release
+# cp *.c *.h Makefile $PYTHON/source_for_tests/
+# cp ../examples/*.pf $PYTEST/compare/
+# cd $PYTHON/source_for_tests/
+# make clean
+# make VERSION=release python
+# make clean
+# make VERSION=release py_wind 
+# make clean
 
-cd /Users/jmatthews/Documents/quick_regression/latest/outputs/
 
-/Users/jmatthews/Documents/Python/bin/py cv_standard > cv_standard.out &
-/Users/jmatthews/Documents/Python/bin/py fiducial_agn > fiducial_agn.out &
-/Users/jmatthews/Documents/Python/bin/py balmer_test > balmer_test.out &
-/Users/jmatthews/Documents/Python/bin/py cv_macro_benchmark > cv_macro_benchmark.out &
+# cd into the outputs directory and run the models
+cd $PYTEST/outputs/
+
+$PYTHON/bin/pytest cv_standard > cv_standard.out &
+$PYTHON/bin/pytest fiducial_agn > fiducial_agn.out &
+$PYTHON/bin/pytest 1d_sn > 1d_sn.out &
+$PYTHON/bin/pytest sv_detailed_mode > sv_detailed_mode.out &
+$PYTHON/bin/pytest cv_macro_benchmark > cv_macro_benchmark.out &
 
 
 

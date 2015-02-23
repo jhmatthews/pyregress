@@ -1,4 +1,8 @@
-#!/Library/Frameworks/Python.framework/Versions/2.7/bin/python
+#!/usr/bin/env python
+'''
+plot_sub.py contains some specific routines for making plots for easily comparing
+results of regression tests
+'''
 from pylab import *
 import numpy as np
 import read_sub as sub
