@@ -18,7 +18,17 @@ Regression Tests for python. Standard suite.
 
 ### Usage
 
+First setup up the PYTEST environment variable to point to the directory of this folder.
+
+
+
 To follow!
+
+### Setting up automated tests
+
+
+
+
 
 
 

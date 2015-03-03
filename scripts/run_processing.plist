@@ -7,7 +7,7 @@
     <string>com.python.run_processing</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/jmatthews/Documents/quick_regression/latest/scripts/process.py</string>
+        <string>/Users/jmatthews/Documents/pyregress/scripts/process.py</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
@@ -17,9 +17,9 @@
         <integer>00</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/Users/jmatthews/Documents/quick_regression/latest/run_test.out</string>
+    <string>/Users/jmatthews/Documents/pyregress/run_test.out</string>
     <key>StandardErrorPath</key>
-    <string>/Users/jmatthews/Documents/quick_regression/latest/run_test.err</string>
+    <string>/Users/jmatthews/Documents/pyregress/run_test.err</string>
 </dict>
 </plist>
 

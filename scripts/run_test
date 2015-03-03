@@ -8,7 +8,9 @@
 cd $PYTHON_TEST_VERSION/source
 git checkout dev
 git pull origin dev
-cp *.c *.h Makefile $PYTHON/source_for_tests/
+cp *.c $PYTHON/source_for_tests/
+cp *.h $PYTHON/source_for_tests/
+cp Makefile $PYTHON/source_for_tests/
 cp ../examples/*.pf $PYTEST/output/
 cd $PYTHON/source_for_tests/
 make clean
@@ -33,11 +35,12 @@ make clean
 
 # cd into the outputs directory and run the models
 cd $PYTEST/outputs/
+Setup_Py_Dir
 
 $PYTHON/bin/pytest cv_standard > cv_standard.out &
 $PYTHON/bin/pytest fiducial_agn > fiducial_agn.out &
 $PYTHON/bin/pytest 1d_sn > 1d_sn.out &
-$PYTHON/bin/pytest sv_detailed_mode > sv_detailed_mode.out &
+$PYTHON/bin/pytest sv_detailedmode > sv_detailedmode.out &
 $PYTHON/bin/pytest cv_macro_benchmark > cv_macro_benchmark.out &
 
 

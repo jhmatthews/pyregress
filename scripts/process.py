@@ -14,9 +14,9 @@ os.system("/Users/jmatthews/Documents/quick_regression/latest/scripts/process")
 
 
 names = ["fiducial_agn", "cv_standard", "balmer_test", "cv_macro_benchmark"]
+success = np.zeros(len(names))
 
 
-success = 0 
 
 # check how many runs completed
 for i in range(len(names)):
@@ -29,16 +29,17 @@ for i in range(len(names)):
 
 	for line in f:
 		if "COMPLETE" in line:
-			success += 1
+			success[i] = 1
 			run_passed = True
 
 	if run_passed == False:
+		success[i] = -1
 		failed.append(name)
 
 
 # check successes
 # if there's a failure, email me
-if success == 4:
+if success.all() == 1:
 	print "Every run completed"
 else:
 	em = open("email.txt", "r")
