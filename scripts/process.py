@@ -2,18 +2,21 @@
 
 import datetime, time
 import os, sys
-
+import numpy as np
 
 
 
 DATE = datetime.date.today()
 
-os.system("/Users/jmatthews/Documents/quick_regression/latest/scripts/process") 
+PYTEST = os.environ["PYTEST"]
+
+os.system("%s/scripts/process" % PYTEST) 
 
 #time.sleep(30)
 
 
-names = ["fiducial_agn", "cv_standard", "balmer_test", "cv_macro_benchmark"]
+#names = ["fiducial_agn", "cv_standard", "balmer_test", "cv_macro_benchmark"]
+names = ["1d_sn"]
 success = np.zeros(len(names))
 
 
@@ -25,7 +28,7 @@ for i in range(len(names)):
 
 	run_passed = False
 
-	f = open("/Users/jmatthews/Documents/quick_regression/latest/outputs/"+name + ".sig")
+	f = open("%s/outputs/%s.sig" % (PYTEST, name))
 
 	for line in f:
 		if "COMPLETE" in line:
@@ -53,13 +56,13 @@ else:
 
 	em.close()
 
-	os.system("/Users/jmatthews/Documents/quick_regression/latest/scripts/email")
+	os.system("%s/scripts/email" % (PYTEST))
 
 
 
 # commit to git and push
-os.system("cd /Users/jmatthews/Documents/quick_regression/latest;\
+os.system("cd %s;\
           git commit -am 'Regression test for %s';\
-          git push origin gh-pages" % DATE)
+          git push origin gh-pages" % (PYTEST, DATE) )
 
 

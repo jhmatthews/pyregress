@@ -13,9 +13,9 @@ usage
 '''
  
 #names = ["fiducial_agn", "cv_standard"]
-#names = ["cv_standard"]
+names = ["1d_sn"]
 #names = ["fiducial_agn"]
-names = 
+#names = 
 
 try:
 	f = open("cv_standard.out", "r")
