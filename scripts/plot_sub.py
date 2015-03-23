@@ -246,7 +246,7 @@ def make_residual_plot(s1, s2, name):
 
 	fig = figure(figsize=(8.3,11.6))
 
-	nplots = len(s1[s1.colnames[9:]])
+	nplots = len(s1.colnames[9:])
 	nx = 2
 	ny = (nplots + 1) / nx
 
@@ -269,7 +269,7 @@ def make_comp_plot(s1, s2, name):
 
 	fig = figure(figsize=(8.3,11.6))
 
-	nplots = len(s1[s1.colnames[9:]])
+	nplots = len(s1.colnames[9:])
 	nx = 2
 	ny = (nplots + 1) / nx
 
