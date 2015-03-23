@@ -3,6 +3,7 @@
 import datetime, time
 import os, sys
 import numpy as np
+import plot_output
 
 
 
@@ -10,16 +11,18 @@ DATE = datetime.date.today()
 
 PYTEST = os.environ["PYTEST"]
 
-os.system("%s/scripts/process" % PYTEST) 
+
+#os.system("%s/scripts/process" % PYTEST) 
 
 #time.sleep(30)
 
 
 #names = ["fiducial_agn", "cv_standard", "balmer_test", "cv_macro_benchmark"]
-names = ["1d_sn"]
+names = ["1d_sn", "cv_standard"]
 success = np.zeros(len(names))
+failed = []
 
-
+plot_output.make_plots(names)
 
 # check how many runs completed
 for i in range(len(names)):
