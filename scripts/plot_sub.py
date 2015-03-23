@@ -7,6 +7,7 @@ from pylab import *
 import numpy as np
 import read_sub as sub
 import os
+from astropy.io import ascii
 
 FOLDER = os.environ["PYTEST"]
 FOLDER = FOLDER + "/plots/"
@@ -28,6 +29,7 @@ def make_standard_plot(s, name):
 	xlabel("Wavelength")
 	ylabel("Flux")
 	savefig("%sspec_%s.png" % (FOLDER, name))
+	clf()
 
 	return 0
 
@@ -48,6 +50,7 @@ def make_components_plot(s, name):
 	xlabel("Wavelength")
 	ylabel("Flux")
 	savefig("%sspec_components_%s.png" % (FOLDER, name))
+	clf()
 
 	return 0
 
@@ -69,6 +72,7 @@ def make_log_spec_tot_plot(s, name):
 	xlabel("Wavelength")
 	ylabel("Flux")
 	savefig("%slogspectot_%s.png" % (FOLDER, name))
+	clf()
 
 	return 0
 
@@ -97,6 +101,7 @@ def make_log_spec_tot_comp_plot(s1, s2, name):
 	xlabel("Wavelength")
 	ylabel("Flux")
 	savefig("%slogspectot_comp_%s.png" % (FOLDER, name))
+	clf()
 
 
 
@@ -125,6 +130,7 @@ def make_components_comp_plot(s1, s2, name):
 	xlabel("Wavelength")
 	ylabel("Flux")
 	savefig("%scomponents_comp_%s.png" % (FOLDER, name))
+	clf()
 
 
 
@@ -261,7 +267,7 @@ def make_residual_plot(s1, s2, name):
 	xlabel("Wavelength")
 	ylabel("Flux")
 	savefig("%sresidual_%s.png" % (FOLDER, name))
-
+	clf()
 	return 0
 
 
@@ -285,8 +291,96 @@ def make_comp_plot(s1, s2, name):
 	xlabel("Wavelength")
 	ylabel("Flux")
 	savefig("%scomp_%s.png" % (FOLDER, name))
+	clf()
 
 	return 0
+
+
+
+def make_ion_plots_from_loop(suffix):
+
+
+	ions = ["hydrogen", "helium", "oxygen", "nitrogen", "carbon", "iron"]
+
+	nions = len(ions)
+
+	figure(figsize=(16,12))
+
+	suffix1 = "test"
+	suffix2 = "release"
+	f1 = os.environ["PYTEST"]+"/outputs/"
+	f2 = os.environ["PYTEST"]+"/outputs_release/"
+
+
+	suptitle("Ion fractions v U")
+	cc = 'cmykrbgcmykrbgcmykrbgcmykrbg'
+
+	for i in range(nions):
+
+		subplot(3,2,i+1)
+
+
+		data1 = np.loadtxt("%spy_%s_%s.dat" % (f1, ions[i], suffix1), unpack=True)
+		data2 = np.loadtxt("%spy_%s_%s.dat" % (f2, ions[i], suffix2), unpack=True)
+
+		for j in range(len(data1[1:])):
+
+			plot(data1[0], data1[j+1],c=cc[j], label="Dev")
+			scatter(data2[0], data2[j+1],c=cc[j], marker="x", label="Release")
+
+		title(ions[i])
+		#loglog()
+		semilogx()
+		semilogy()
+		#ylim(0.98,1.02)
+		
+
+	savefig("%sions_loop_comp.png" % FOLDER)
+	clf()
+
+
+
+
+
+
+def make_hc_plots_from_loop(suffix):
+
+	#suffix = sys.argv[2]
+	ENV = os.environ["PYTEST"]
+	names = [ENV+"/outputs/", ENV+"/outputs_release/"]
+	labs = ["Dev", "Release"]
+
+	suffixes = ["test", "release"]
+
+	for i in range(len(names)):
+
+		suffix = suffixes[i]
+
+		h = ascii.read("%spy_heat_%s.dat" % (names[i], suffix))
+		c = ascii.read("%spy_cool_%s.dat" % (names[i], suffix))
+
+		subplot(2,2,i+1)
+		title("Cooling " + labs[i])
+
+		for name in c.colnames[1:]:
+			loglog(c["IP"], c[name], label=name)
+
+		ylim(1e-20,1e-8)
+		legend()
+
+
+		subplot(2,2,3+i)
+		title("Heating " + labs[i])
+
+		for name in h.colnames[1:]:
+			loglog(h["IP"], h[name], label=name)
+
+		ylim(1e-20,1e-4)
+		legend()
+
+
+	savefig("%shc_curve.png" % FOLDER)
+	clf()
 
 
 

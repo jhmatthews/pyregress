@@ -1,4 +1,4 @@
-#!/Library/Frameworks/Python.framework/Versions/2.7/bin/python
+#!/usr/bin/env python
 #import read_sub as sub
 import py_read_output as rd 
 import py_plot_util as util
@@ -7,6 +7,7 @@ from pylab import *
 import numpy as np 
 import sys
 import os
+from astropy.io import ascii
 
 '''
 usage
@@ -19,12 +20,15 @@ BENCH_FOLDER = os.environ["PYTEST"] + "/outputs_release/"
 def make_plots(names):  
 
 	try:
-		f = open("%s.out" % names[0], "r")
+		f = open("%s%s.out" % (FOLDER,names[0]), "r")
 		for line in f:
 			data = line.split()
 			if len(data) > 2:
 				if data[0] == "!!Python" and data[1]=="Version":
 					VERSION = data[2]
+
+			#if data[0] == "!!Python" and data[1]=="Version":
+
 	except IOError:
 		print "Couldn't read version"
 		VERSION=""
@@ -60,8 +64,8 @@ def make_plots(names):
 		s_bench = rd.read_spectrum(benchname)
 
 		# just make some standard spectrum plots
-		p.make_standard_plot(s, shortname)
-		p.make_components_plot(s, shortname)
+		#p.make_standard_plot(s, shortname)
+		#p.make_components_plot(s, shortname)
 
 		p.make_residual_plot(s, s_bench, shortname)		# make residual plots
 		p.make_comp_plot(s, s_bench, shortname)			# make comparison plots
@@ -77,6 +81,10 @@ def make_plots(names):
 
 		#p.make_log_spec_tot_plot(s, name)
 		#p.make_log_spec_tot_comp_plot(s, s_bench, name)
+
+		p.make_hc_plots_from_loop (shortname)
+		p.make_ion_plots_from_loop (shortname)
+
 
 
 

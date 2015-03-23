@@ -1,4 +1,4 @@
-#!/Library/Frameworks/Python.framework/Versions/2.7/bin/python
+#!/usr/bin/env python
 
 import datetime, time
 import os, sys
@@ -64,8 +64,8 @@ else:
 
 
 # commit to git and push
-os.system("cd %s;\
-          git commit -am 'Regression test for %s';\
-          git push origin gh-pages" % (PYTEST, DATE) )
+# os.system("cd %s;\
+#           git commit -am 'Regression test for %s';\
+#           git push origin gh-pages" % (PYTEST, DATE) )
 
 
