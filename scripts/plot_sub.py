@@ -317,7 +317,9 @@ def make_ion_plots_from_loop(suffix):
 	f2 = os.environ["PYTEST"]+"/outputs_release/"
 
 
-	suptitle("Ion fractions v U")
+
+
+	suptitle("Ion fractions v U: crosses=release, lines=dev")
 	cc = 'cmykrbgcmykrbgcmykrbgcmykrbg'
 
 	for i in range(nions):
@@ -356,6 +358,7 @@ def make_hc_plots_from_loop(suffix):
 	labs = ["Dev", "Release"]
 
 	suffixes = ["test", "release"]
+
 
 	for i in range(len(names)):
 

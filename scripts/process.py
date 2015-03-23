@@ -18,7 +18,7 @@ PYTEST = os.environ["PYTEST"]
 
 
 #names = ["fiducial_agn", "cv_standard", "balmer_test", "cv_macro_benchmark"]
-names = ["1d_sn", "cv_standard"]
+names = ["1d_sn", "cv_standard", "fiducial_agn"]
 success = np.zeros(len(names))
 failed = []
 
