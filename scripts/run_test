@@ -44,7 +44,7 @@ $PYTHON/bin/pytest 1d_sn > 1d_sn.out &
 #$PYTHON/bin/pytest cv_macro_benchmark > cv_macro_benchmark.out &
 
 # run the ion loop
-scripts/ion_loop_jm.py test test 
+scripts/ion_loop_jm.py test test standard78
 #scripts/ion_loop_jm.py release release
 
 

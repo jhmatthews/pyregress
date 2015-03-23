@@ -276,8 +276,13 @@ def make_comp_plot(s1, s2, name):
 	fig = figure(figsize=(8.3,11.6))
 
 	nplots = len(s1.colnames[9:])
-	nx = 2
-	ny = (nplots + 1) / nx
+
+	if nplots > 1:
+		nx = 2
+		ny = (nplots + 1) / nx
+	else: 
+		nx = 1
+		ny = 1
 
 	suptitle("Comparison: %s v Last Release" % name)
 

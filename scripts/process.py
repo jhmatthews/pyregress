@@ -63,9 +63,9 @@ else:
 
 
 
-# commit to git and push
-# os.system("cd %s;\
-#           git commit -am 'Regression test for %s';\
-#           git push origin gh-pages" % (PYTEST, DATE) )
+#commit to git and push
+os.system("cd %s;\
+          git commit -am 'Regression test for %s';\
+          git push origin gh-pages" % (PYTEST, DATE) )
 
 
