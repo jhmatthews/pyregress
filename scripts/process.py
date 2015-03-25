@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 
-import datetime, time
+# before we import any modules, set the environment variables in launchd. almost certainly a better way to do this
 import os, sys
+os.system("launchctl setenv PYTHONPATH $PYTHONPATH")
+os.system("launchctl setenv PYTEST $PYTHONPATH")
+
+import datetime, time
 import numpy as np
 import plot_output
 

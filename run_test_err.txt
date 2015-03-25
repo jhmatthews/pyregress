@@ -1,0 +1,2 @@
+/Users/jmatthews/Documents/pyregress/scripts/run_test: line 4: /run_test.out: Permission denied
+/Users/jmatthews/Documents/pyregress/scripts/run_test: line 6: /run_test.out: Permission denied

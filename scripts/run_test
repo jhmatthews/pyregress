@@ -1,8 +1,15 @@
 #!/bin/sh
 
+
+
 # First make sure the error and output files are empty.
 : > $PYTEST/run_test.out
 : > $PYTEST/run_test.err
+
+# set launchd path
+launchctl setenv PYTHONPATH $PYTHONPATH
+launchctl setenv PYTEST @PYTEST
+
 
 # cd into $PYTHON_TEST_VERSION/source, cp to a directory in $PYTHON and make python 
 cd $PYTHON_TEST_VERSION/source
