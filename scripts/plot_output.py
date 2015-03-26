@@ -109,7 +109,9 @@ def get_standard_dev(run_name, s1, s2):
 
 		sd = get_one_standard_dev(s1[s1.colnames[i]], s2[s1.colnames[i]])
 
-		print "Run %s: Column %s Normalised Standard deviation in flux = %8.4e" % (run_name, s1.colnames[i], sd)
+		mean = np.mean(s1[s1.colnames[i]])
+
+		print "Run %s: Column %s Normalised Standard deviation in flux = %8.4e Mean %8.4e" % (run_name, s1.colnames[i], sd, mean)
 
 	return 0
 
@@ -126,7 +128,7 @@ def get_one_standard_dev(array1, array2):
 
 	N = len(array1)
 
-	diff = (array1 - array2) / array1
+	diff = (array1 - array2)
 
 	diffsquaredsum = np.sum(diff * diff)
 
