@@ -63,6 +63,8 @@ def make_plots(names):
 		# this is the benchmark spectral file to test against
 		s_bench = rd.read_spectrum(benchname)
 
+		get_standard_dev(shortname, s, s_bench)
+
 		# just make some standard spectrum plots
 		#p.make_standard_plot(s, shortname)
 		#p.make_components_plot(s, shortname)
@@ -94,3 +96,46 @@ def make_plots(names):
 	#os.system("open -a preview *.png")
 
 	print "all done"
+
+	return 0
+
+
+
+def get_standard_dev(run_name, s1, s2):
+
+	sd_dict = dict()
+
+	for i in range(2,len(s1.colnames)):
+
+		sd = get_one_standard_dev(s1[s1.colnames[i]], s2[s1.colnames[i]])
+
+		print "Run %s: Column %s Standard deviation in flux = %8.4e" % (run_name, s1.colnames[i], sd)
+
+	return 0
+
+
+
+
+
+
+def get_one_standard_dev(array1, array2):
+
+	'''
+	array-like arguments
+	'''
+
+	N = len(array1)
+
+	diff = array1 - array2
+
+	diffsquaredsum = np.sum(diff * diff)
+
+	SD = np.sqrt(diffsquaredsum / N)
+
+	return SD
+
+
+
+
+
+
