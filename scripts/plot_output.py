@@ -126,11 +126,11 @@ def get_one_standard_dev(array1, array2):
 
 	N = len(array1)
 
-	diff = array1 - array2
+	diff = (array1 - array2) / array1
 
 	diffsquaredsum = np.sum(diff * diff)
 
-	SD = np.sqrt(diffsquaredsum / N) / np.mean(array1)
+	SD = np.sqrt(diffsquaredsum / N)
 
 	return SD
 
