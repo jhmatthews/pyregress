@@ -1,2 +1,38 @@
 /Users/jmatthews/Documents/pyregress/scripts/run_test: line 4: /run_test.out: Permission denied
 /Users/jmatthews/Documents/pyregress/scripts/run_test: line 6: /run_test.out: Permission denied
+/Users/jmatthews/Documents/pyregress/scripts/run_test: line 6: /run_test.out: Permission denied
+Traceback (most recent call last):
+  File "/Users/jmatthews/Documents/pyregress/scripts/process.py", line 10, in <module>
+    import plot_output
+  File "/Users/jmatthews/Documents/pyregress/scripts/plot_output.py", line 5, in <module>
+    import plot_sub as p
+  File "/Users/jmatthews/Documents/pyregress/scripts/plot_sub.py", line 12, in <module>
+    FOLDER = os.environ["PYTEST"]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/UserDict.py", line 23, in __getitem__
+    raise KeyError(key)
+KeyError: 'PYTEST'
+launchctl usage: setenv <key> <value>
+launchctl usage: setenv <key> <value>
+Traceback (most recent call last):
+  File "/Users/jmatthews/Documents/pyregress/scripts/process.py", line 31, in <module>
+    plot_output.make_plots(names)
+  File "/Users/jmatthews/Documents/pyregress/scripts/plot_output.py", line 46, in make_plots
+    pf_dict = rd.read_pf(name)						# read in pf file
+  File "/Users/jmatthews/Documents/Python/py_progs/py_read_output.py", line 253, in read_pf
+    params, vals = np.loadtxt(root, dtype="string", unpack=True)
+  File "/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py", line 724, in loadtxt
+    fh = iter(open(fname, 'U'))
+IOError: [Errno 2] No such file or directory: '/Users/jmatthews/Documents/Analysis_Scripts/pybin:/Users/jmatthews/Documents/disky/Utilities/:/Users/jmatthews/Documents/cobra/source:/Users/jmatthews/Documents/disky/:/Users/jmatthews/Documents/disky/zephyr/:/Users/jmatthews/Documents/pyprogs:/Users/jmatthews/Documents/atomjm:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/tardis_sn-0.9.dev702-py2.7-macosx-10.6-intel.egg/:/Users/jmatthews/Documents/pyprogs/:/Users/jmatthews/Documents/disky/disk:/Users/jmatthews/Documents/Python/py_progs//outputs/1d_sn.pf'
+Traceback (most recent call last):
+  File "/Users/jmatthews/Documents/pyregress/scripts/process.py", line 33, in <module>
+    plot_output.make_plots(names)
+  File "/Users/jmatthews/Documents/pyregress/scripts/plot_output.py", line 54, in make_plots
+    util.run_py_wind(name, vers=VERSION)
+  File "/Users/jmatthews/Documents/Python/py_progs/py_plot_util.py", line 67, in run_py_wind
+    np.savetxt("_tempcmd.txt", x, fmt = "%s")
+  File "/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py", line 999, in savetxt
+    fh = open(fname, 'w')
+IOError: [Errno 13] Permission denied: '_tempcmd.txt'
+sh: py_windtest: command not found
+sh: py_windtest: command not found
+sh: py_windtest: command not found

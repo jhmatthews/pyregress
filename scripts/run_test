@@ -1,14 +1,16 @@
 #!/bin/sh
 
 
-
-# First make sure the error and output files are empty.
-: > $PYTEST/run_test.out
-: > $PYTEST/run_test.err
-
 # set launchd path
 launchctl setenv PYTHONPATH $PYTHONPATH
-launchctl setenv PYTEST @PYTEST
+launchctl setenv PYTHON $PYTHON
+launchctl setenv PYTEST $PYTEST
+launchctl setenv PYTHON_TEST_VERSION $PYTHON_TEST_VERSION
+
+
+# First make sure the error and output files are empty.
+: > $PYTEST/run_test_out.txt
+: > $PYTEST/run_test_err.txt
 
 
 # cd into $PYTHON_TEST_VERSION/source, cp to a directory in $PYTHON and make python 

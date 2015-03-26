@@ -1,0 +1,7 @@
+Couldn't read version
+VERSION 
+/Users/jmatthews/Documents/pyregress
+VERSION test
+[0.889, 0.889, 0.815, 0.778, 0.704, 0.852, 0.741, 0.741, 0.815, 0.889, 0.852, 0.815, 0.815, 0.778, 0.778, 0.815, 0.815, 0.815, 0.815, 0.815]
+Model /Users/jmatthews/Documents/pyregress/outputs/1d_sn
+81.50pc Converged

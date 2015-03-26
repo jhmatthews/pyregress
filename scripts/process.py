@@ -3,7 +3,9 @@
 # before we import any modules, set the environment variables in launchd. almost certainly a better way to do this
 import os, sys
 os.system("launchctl setenv PYTHONPATH $PYTHONPATH")
-os.system("launchctl setenv PYTEST $PYTHONPATH")
+os.system("launchctl setenv PYTEST $PYTEST")
+os.system("launchctl setenv PYTHON $PYTHON")
+os.system("launchctl setenv PYTHON_TEST_VERSION $PYTHON_TEST_VERSION")
 
 import datetime, time
 import numpy as np
@@ -14,6 +16,10 @@ import plot_output
 DATE = datetime.date.today()
 
 PYTEST = os.environ["PYTEST"]
+
+print PYTEST
+
+os.chdir(PYTEST)
 
 
 #os.system("%s/scripts/process" % PYTEST) 
@@ -52,7 +58,7 @@ for i in range(len(names)):
 if success.all() == 1:
 	print "Every run completed"
 else:
-	em = open("email.txt", "r")
+	em = open("%s/email.txt" % PYTEST, "r")
 
 	em.write("Failure on \n\n")
 	em.write("Check Latest commit immediately\n\n")
