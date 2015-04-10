@@ -13,7 +13,11 @@ import plot_output
 
 
 
+
 DATE = datetime.date.today()
+
+print "\nOUTPUT for processing script\n"
+print "DATE %s" % DATE
 
 PYTEST = os.environ["PYTEST"]
 

@@ -1,25 +1,20 @@
-Couldn't read version
-VERSION 
-/Users/jmatthews/Documents/pyregress
-VERSION test
-[0.889, 0.889, 0.815, 0.778, 0.704, 0.852, 0.741, 0.741, 0.815, 0.889, 0.852, 0.815, 0.815, 0.778, 0.778, 0.815, 0.815, 0.815, 0.815, 0.815]
-Model /Users/jmatthews/Documents/pyregress/outputs/1d_sn
-81.50pc Converged
-[gh-pages c075fb4] Regression test for 2015-03-26
- 5 files changed, 68 insertions(+), 10 deletions(-)
-/Users/jmatthews/Documents/pyregress
-VERSION test
-[0.889, 0.889, 0.815, 0.778, 0.704, 0.852, 0.741, 0.741, 0.815, 0.889, 0.852, 0.815, 0.815, 0.778, 0.778, 0.815, 0.815, 0.815, 0.815, 0.815]
-Model /Users/jmatthews/Documents/pyregress/outputs/1d_sn
-81.50pc Converged
-10 10
-[0.0, 0.142, 0.23, 0.297, 0.381, 0.49, 0.531, 0.573, 0.573, 0.628, 0.636, 0.72, 0.791, 0.841, 0.732, 0.9, 0.87, 0.862, 0.841, 0.912]
-Model /Users/jmatthews/Documents/pyregress/outputs/cv_standard
-91.20pc Converged
-14 14
-[0.052, 0.056, 0.075, 0.064, 0.093, 0.093, 0.149, 0.197, 0.339, 0.386, 0.391, 0.483, 0.509, 0.544, 0.568, 0.591, 0.623, 0.641, 0.641, 0.689, 0.695, 0.713, 0.731, 0.71, 0.754, 0.762, 0.771, 0.766, 0.781, 0.797]
-Model /Users/jmatthews/Documents/pyregress/outputs/fiducial_agn
-79.70pc Converged
-17 17
-all done
-Every run completed
+Tue Apr  7 23:01:21 BST 2015
+Your branch is ahead of 'origin/dev' by 16 commits.
+Already up-to-date.
+rm -f *.o  *~ 
+Compiling with mpicc wrapper, for compiler
+YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
+MPI_FLAG= -DMPI_ON
+echo "#define VERSION " \"test\" > version.h
+echo "#define CHOICE"   1             // Compress plasma as much as possible >> version.h
+echo "#define GIT_COMMIT_HASH" \"998d36be3fdc904725b94153fdb252ca7582e4c2\" >> version.h
+mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o python.o python.c
+rm -f *.o  *~ 
+Compiling with mpicc wrapper, for compiler
+YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
+MPI_FLAG= -DMPI_ON
+echo "#define VERSION " \"test\" > version.h
+echo "#define CHOICE"   1             // Compress plasma as much as possible >> version.h
+echo "#define GIT_COMMIT_HASH" \"998d36be3fdc904725b94153fdb252ca7582e4c2\" >> version.h
+mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o py_wind.o py_wind.c
+rm -f *.o  *~ 

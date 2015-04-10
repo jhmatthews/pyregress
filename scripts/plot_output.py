@@ -20,6 +20,7 @@ BENCH_FOLDER = os.environ["PYTEST"] + "/outputs_release/"
 def make_plots(names):  
 
 	try:
+		VERSION=""
 		f = open("%s%s.out" % (FOLDER,names[0]), "r")
 		for line in f:
 			data = line.split()

@@ -12,6 +12,8 @@ launchctl setenv PYTHON_TEST_VERSION $PYTHON_TEST_VERSION
 : > $PYTEST/run_test_out.txt
 : > $PYTEST/run_test_err.txt
 
+date > $PYTEST/run_test_out.txt
+date > $PYTEST/run_test_err.txt
 
 # cd into $PYTHON_TEST_VERSION/source, cp to a directory in $PYTHON and make python 
 cd $PYTHON_TEST_VERSION/source
@@ -53,7 +55,7 @@ $PYTHON/bin/pytest 1d_sn > 1d_sn.out &
 #$PYTHON/bin/pytest cv_macro_benchmark > cv_macro_benchmark.out &
 
 # run the ion loop
-scripts/ion_loop_jm.py test test standard78
+$PYTEST/scripts/ion_loop_jm.py test test standard78
 #scripts/ion_loop_jm.py release release
 
 
