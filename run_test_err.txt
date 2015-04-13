@@ -1,31 +1,16 @@
-Tue Apr  7 23:01:21 BST 2015
-Already on 'dev'
-From https://github.com/agnwinds/python
- * branch            dev        -> FETCH_HEAD
-usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
-       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
-make: mpicc: Command not found
-/bin/sh: mpicc: command not found
-expr: syntax error
-make: mpicc: Command not found
-/bin/sh: mpicc: command not found
-expr: syntax error
-make: mpicc: Command not found
-make: *** [python.o] Error 127
-make: mpicc: Command not found
-/bin/sh: mpicc: command not found
-expr: syntax error
-make: mpicc: Command not found
-/bin/sh: mpicc: command not found
-expr: syntax error
-make: mpicc: Command not found
-make: *** [py_wind.o] Error 127
-make: mpicc: Command not found
-/bin/sh: mpicc: command not found
-expr: syntax error
-/Users/jmatthews/Documents/pyregress/scripts/run_test: line 49: Setup_Py_Dir: command not found
-env: python\r: No such file or directory
-  File "/Users/jmatthews/Documents/pyregress/scripts/process.py", line 20
-    print "DATE %s" DATE
-                       ^
-SyntaxError: invalid syntax
+Mon 13 Apr 2015 11:39:19 BST
+sh: py_windtest: command not found
+/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py:804: UserWarning: loadtxt: Empty input file: "/Users/jmatthews/Documents/pyregress/outputs/py_hydrogen_test.dat"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py:804: UserWarning: loadtxt: Empty input file: "/Users/jmatthews/Documents/pyregress/outputs/py_helium_test.dat"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py:804: UserWarning: loadtxt: Empty input file: "/Users/jmatthews/Documents/pyregress/outputs/py_oxygen_test.dat"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py:804: UserWarning: loadtxt: Empty input file: "/Users/jmatthews/Documents/pyregress/outputs/py_nitrogen_test.dat"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py:804: UserWarning: loadtxt: Empty input file: "/Users/jmatthews/Documents/pyregress/outputs/py_carbon_test.dat"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py:804: UserWarning: loadtxt: Empty input file: "/Users/jmatthews/Documents/pyregress/outputs/py_iron_test.dat"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+sh: py_windtest: command not found
+sh: py_windtest: command not found

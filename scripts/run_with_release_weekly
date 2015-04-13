@@ -7,6 +7,7 @@ launchctl setenv PYTEST $PYTEST
 launchctl setenv PYTHON_TEST_VERSION $PYTHON_TEST_VERSION
 
 
+
 # First make sure the error and output files are empty.
 : > $PYTEST/run_test_out.txt
 : > $PYTEST/run_test_err.txt

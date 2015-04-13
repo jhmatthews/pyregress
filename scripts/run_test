@@ -1,5 +1,6 @@
 #!/bin/sh
 
+source ~/.bash_profile
 
 # set launchd path
 launchctl setenv PYTHONPATH $PYTHONPATH
@@ -7,6 +8,7 @@ launchctl setenv PYTHON $PYTHON
 launchctl setenv PYTEST $PYTEST
 launchctl setenv PYTHON_TEST_VERSION $PYTHON_TEST_VERSION
 
+echo $PYTEST 
 
 # First make sure the error and output files are empty.
 : > $PYTEST/run_test_out.txt
@@ -54,8 +56,9 @@ $PYTHON/bin/pytest 1d_sn > 1d_sn.out &
 #$PYTHON/bin/pytest sv_detailedmode > sv_detailedmode.out &
 #$PYTHON/bin/pytest cv_macro_benchmark > cv_macro_benchmark.out &
 
+
 # run the ion loop
-$PYTEST/scripts/ion_loop_jm.py test test standard78
+python $PYTEST/scripts/ion_loop_jm.py test test standard78
 #scripts/ion_loop_jm.py release release
 
 
