@@ -14,3 +14,22 @@ sh: py_windtest: command not found
   warnings.warn('loadtxt: Empty input file: "%s"' % fname)
 sh: py_windtest: command not found
 sh: py_windtest: command not found
+To https://github.com/jhmatthews/pyregress
+   b1cfc46..aaa5c61  gh-pages -> gh-pages
+YES
+
+sh: py_windtest: command not found
+/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py:804: UserWarning: loadtxt: Empty input file: "/Users/jmatthews/Documents/pyregress/outputs/py_hydrogen_test.dat"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py:804: UserWarning: loadtxt: Empty input file: "/Users/jmatthews/Documents/pyregress/outputs/py_helium_test.dat"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py:804: UserWarning: loadtxt: Empty input file: "/Users/jmatthews/Documents/pyregress/outputs/py_oxygen_test.dat"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py:804: UserWarning: loadtxt: Empty input file: "/Users/jmatthews/Documents/pyregress/outputs/py_nitrogen_test.dat"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py:804: UserWarning: loadtxt: Empty input file: "/Users/jmatthews/Documents/pyregress/outputs/py_carbon_test.dat"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+/Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py:804: UserWarning: loadtxt: Empty input file: "/Users/jmatthews/Documents/pyregress/outputs/py_iron_test.dat"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+sh: py_windtest: command not found
+sh: py_windtest: command not found
