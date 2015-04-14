@@ -2,6 +2,7 @@
 
 # before we import any modules, set the environment variables in launchd. almost certainly a better way to do this
 import os, sys
+os.system("source ~/.bash_profile")
 os.system("launchctl setenv PYTHONPATH $PYTHONPATH")
 os.system("launchctl setenv PYTEST $PYTEST")
 os.system("launchctl setenv PYTHON $PYTHON")
