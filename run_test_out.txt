@@ -1,4 +1,4 @@
-Mon Apr 13 23:00:20 BST 2015
+Tue Apr 14 23:00:10 BST 2015
 Your branch is ahead of 'origin/dev' by 16 commits.
 Already up-to-date.
 rm -f *.o  *~ 
@@ -7,7 +7,7 @@ YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
 MPI_FLAG= -DMPI_ON
 echo "#define VERSION " \"test\" > version.h
 echo "#define CHOICE"   1             // Compress plasma as much as possible >> version.h
-echo "#define GIT_COMMIT_HASH" \"aa0ccdcbf715ccf09e9755bfc3d81b22570e17a5\" >> version.h
+echo "#define GIT_COMMIT_HASH" \"25366a67064e922bccdbf27f97d12d353177c459\" >> version.h
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o python.o python.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o bb.o bb.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o get_atomicdata.o get_atomicdata.c
@@ -94,7 +94,7 @@ YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
 MPI_FLAG= -DMPI_ON
 echo "#define VERSION " \"test\" > version.h
 echo "#define CHOICE"   1             // Compress plasma as much as possible >> version.h
-echo "#define GIT_COMMIT_HASH" \"aa0ccdcbf715ccf09e9755bfc3d81b22570e17a5\" >> version.h
+echo "#define GIT_COMMIT_HASH" \"25366a67064e922bccdbf27f97d12d353177c459\" >> version.h
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o py_wind.o py_wind.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o get_atomicdata.o get_atomicdata.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o py_wind_sub.o py_wind_sub.c
