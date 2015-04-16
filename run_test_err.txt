@@ -1,333 +1,333 @@
-Tue Apr 14 23:00:10 BST 2015
+Wed Apr 15 23:00:31 BST 2015
 Already on 'dev'
 From https://github.com/agnwinds/python
  * branch            dev        -> FETCH_HEAD
 usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
        cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
 
-real	0m3.066s
-user	0m2.700s
-sys	0m0.160s
+real	0m2.898s
+user	0m2.655s
+sys	0m0.158s
+
+real	0m2.803s
+user	0m2.638s
+sys	0m0.154s
+
+real	0m2.798s
+user	0m2.626s
+sys	0m0.162s
+
+real	0m2.838s
+user	0m2.663s
+sys	0m0.150s
+
+real	0m2.918s
+user	0m2.643s
+sys	0m0.161s
+
+real	0m2.789s
+user	0m2.606s
+sys	0m0.154s
+
+real	0m2.853s
+user	0m2.665s
+sys	0m0.157s
+
+real	0m2.789s
+user	0m2.614s
+sys	0m0.167s
+
+real	0m2.799s
+user	0m2.615s
+sys	0m0.163s
+
+real	0m2.827s
+user	0m2.661s
+sys	0m0.152s
+
+real	0m2.806s
+user	0m2.623s
+sys	0m0.175s
+
+real	0m2.874s
+user	0m2.687s
+sys	0m0.177s
+
+real	0m2.826s
+user	0m2.635s
+sys	0m0.167s
+
+real	0m2.780s
+user	0m2.606s
+sys	0m0.162s
+
+real	0m2.865s
+user	0m2.693s
+sys	0m0.147s
 
 real	0m2.875s
-user	0m2.691s
+user	0m2.709s
+sys	0m0.150s
+
+real	0m2.858s
+user	0m2.683s
+sys	0m0.166s
+
+real	0m2.752s
+user	0m2.575s
+sys	0m0.166s
+
+real	0m2.797s
+user	0m2.631s
+sys	0m0.154s
+
+real	0m2.828s
+user	0m2.640s
+sys	0m0.176s
+
+real	0m2.946s
+user	0m2.757s
+sys	0m0.176s
+
+real	0m2.814s
+user	0m2.629s
+sys	0m0.172s
+
+real	0m2.830s
+user	0m2.649s
+sys	0m0.153s
+
+real	0m2.795s
+user	0m2.620s
+sys	0m0.166s
+
+real	0m2.823s
+user	0m2.624s
+sys	0m0.164s
+
+real	0m2.856s
+user	0m2.674s
+sys	0m0.165s
+
+real	0m2.727s
+user	0m2.555s
+sys	0m0.158s
+
+real	0m2.847s
+user	0m2.662s
+sys	0m0.171s
+
+real	0m2.829s
+user	0m2.629s
 sys	0m0.167s
+
+real	0m2.844s
+user	0m2.655s
+sys	0m0.177s
 
 real	0m2.876s
 user	0m2.695s
-sys	0m0.168s
-
-real	0m2.919s
-user	0m2.739s
-sys	0m0.162s
-
-real	0m2.922s
-user	0m2.727s
-sys	0m0.178s
-
-real	0m3.040s
-user	0m2.845s
-sys	0m0.184s
-
-real	0m2.911s
-user	0m2.721s
 sys	0m0.169s
 
-real	0m2.909s
-user	0m2.723s
-sys	0m0.172s
-
-real	0m2.918s
-user	0m2.724s
-sys	0m0.163s
-
-real	0m2.902s
-user	0m2.723s
-sys	0m0.165s
-
-real	0m2.864s
-user	0m2.680s
-sys	0m0.171s
-
-real	0m2.884s
-user	0m2.702s
-sys	0m0.173s
-
-real	0m2.956s
-user	0m2.768s
-sys	0m0.174s
-
-real	0m2.905s
-user	0m2.718s
-sys	0m0.168s
-
-real	0m2.884s
-user	0m2.703s
-sys	0m0.170s
-
-real	0m2.883s
-user	0m2.711s
-sys	0m0.162s
-
-real	0m2.858s
-user	0m2.667s
-sys	0m0.170s
-
-real	0m2.865s
-user	0m2.673s
-sys	0m0.175s
-
-real	0m2.832s
-user	0m2.660s
-sys	0m0.163s
-
-real	0m2.885s
-user	0m2.690s
-sys	0m0.164s
-
-real	0m2.923s
-user	0m2.732s
-sys	0m0.173s
-
-real	0m2.864s
-user	0m2.675s
-sys	0m0.177s
-
-real	0m2.892s
-user	0m2.703s
-sys	0m0.174s
-
-real	0m2.913s
-user	0m2.734s
-sys	0m0.163s
-
-real	0m2.883s
-user	0m2.699s
-sys	0m0.172s
-
-real	0m2.912s
-user	0m2.709s
-sys	0m0.179s
-
-real	0m2.894s
-user	0m2.708s
-sys	0m0.175s
-
-real	0m2.847s
-user	0m2.654s
-sys	0m0.182s
-
-real	0m3.037s
-user	0m2.842s
-sys	0m0.179s
-
-real	0m3.163s
-user	0m2.934s
-sys	0m0.200s
-
-real	0m2.870s
-user	0m2.669s
-sys	0m0.187s
-
-real	0m2.900s
-user	0m2.709s
-sys	0m0.177s
-
-real	0m3.061s
-user	0m2.775s
-sys	0m0.193s
-
-real	0m2.896s
-user	0m2.709s
-sys	0m0.169s
-
-real	0m2.950s
-user	0m2.749s
-sys	0m0.177s
-
-real	0m2.898s
-user	0m2.716s
-sys	0m0.163s
-
-real	0m2.880s
-user	0m2.693s
-sys	0m0.170s
-
-real	0m2.900s
-user	0m2.706s
-sys	0m0.183s
-
-real	0m2.916s
-user	0m2.723s
+real	0m2.794s
+user	0m2.603s
 sys	0m0.176s
 
-real	0m2.901s
-user	0m2.715s
-sys	0m0.176s
-
-real	0m2.926s
-user	0m2.734s
-sys	0m0.167s
-
-real	0m2.892s
-user	0m2.708s
-sys	0m0.165s
-
-real	0m2.920s
-user	0m2.720s
-sys	0m0.181s
-
-real	0m2.924s
-user	0m2.727s
-sys	0m0.174s
-
-real	0m2.844s
-user	0m2.661s
-sys	0m0.170s
-
-real	0m2.916s
-user	0m2.721s
-sys	0m0.181s
-
-real	0m2.665s
-user	0m2.491s
-sys	0m0.158s
-
-real	0m2.663s
-user	0m2.479s
-sys	0m0.163s
-
-real	0m2.690s
-user	0m2.496s
-sys	0m0.163s
-
-real	0m2.851s
-user	0m2.569s
-sys	0m0.166s
-
-real	0m2.821s
-user	0m2.638s
-sys	0m0.168s
-
-real	0m2.652s
-user	0m2.476s
-sys	0m0.167s
-
-real	0m2.661s
-user	0m2.487s
-sys	0m0.156s
-
-real	0m2.657s
-user	0m2.478s
-sys	0m0.165s
-
-real	0m2.575s
-user	0m2.401s
-sys	0m0.152s
-
-real	0m2.701s
-user	0m2.521s
-sys	0m0.159s
-
-real	0m2.711s
-user	0m2.479s
-sys	0m0.172s
-
-real	0m2.680s
-user	0m2.502s
+real	0m2.784s
+user	0m2.601s
 sys	0m0.171s
 
-real	0m2.665s
-user	0m2.484s
-sys	0m0.164s
+real	0m2.864s
+user	0m2.670s
+sys	0m0.154s
 
-real	0m2.637s
-user	0m2.460s
-sys	0m0.164s
-
-real	0m2.707s
-user	0m2.523s
+real	0m2.806s
+user	0m2.637s
 sys	0m0.161s
 
-real	0m2.814s
-user	0m2.535s
-sys	0m0.157s
-
-real	0m2.688s
-user	0m2.477s
-sys	0m0.160s
-
-real	0m2.862s
-user	0m2.575s
-sys	0m0.158s
-
-real	0m2.710s
-user	0m2.484s
-sys	0m0.155s
-
-real	0m2.666s
-user	0m2.483s
-sys	0m0.169s
-
-real	0m2.717s
-user	0m2.469s
-sys	0m0.175s
-
-real	0m2.713s
-user	0m2.481s
-sys	0m0.173s
-
-real	0m2.687s
-user	0m2.502s
-sys	0m0.165s
-
-real	0m2.677s
-user	0m2.500s
-sys	0m0.168s
-
-real	0m2.686s
-user	0m2.501s
-sys	0m0.175s
-
-real	0m2.680s
-user	0m2.499s
-sys	0m0.169s
-
-real	0m2.661s
-user	0m2.449s
-sys	0m0.166s
-
-real	0m2.862s
-user	0m2.620s
-sys	0m0.164s
-
-real	0m2.835s
-user	0m2.619s
-sys	0m0.195s
-
-real	0m2.644s
-user	0m2.463s
+real	0m2.823s
+user	0m2.635s
 sys	0m0.162s
 
-real	0m2.654s
-user	0m2.480s
+real	0m2.796s
+user	0m2.619s
 sys	0m0.157s
 
-real	0m2.627s
-user	0m2.448s
-sys	0m0.160s
+real	0m2.784s
+user	0m2.611s
+sys	0m0.156s
 
-real	0m2.655s
-user	0m2.478s
+real	0m2.800s
+user	0m2.626s
+sys	0m0.161s
+
+real	0m2.825s
+user	0m2.656s
+sys	0m0.152s
+
+real	0m2.806s
+user	0m2.627s
 sys	0m0.165s
 
-real	0m2.688s
-user	0m2.473s
-sys	0m0.172s
+real	0m2.870s
+user	0m2.682s
+sys	0m0.171s
 
-real	0m2.675s
-user	0m2.492s
+real	0m2.831s
+user	0m2.651s
+sys	0m0.170s
+
+real	0m2.813s
+user	0m2.591s
+sys	0m0.175s
+
+real	0m2.834s
+user	0m2.645s
+sys	0m0.171s
+
+real	0m2.695s
+user	0m2.506s
+sys	0m0.164s
+
+real	0m2.604s
+user	0m2.431s
 sys	0m0.166s
+
+real	0m2.594s
+user	0m2.430s
+sys	0m0.156s
+
+real	0m2.580s
+user	0m2.415s
+sys	0m0.149s
+
+real	0m2.564s
+user	0m2.402s
+sys	0m0.144s
+
+real	0m2.537s
+user	0m2.367s
+sys	0m0.148s
+
+real	0m2.605s
+user	0m2.442s
+sys	0m0.148s
+
+real	0m2.543s
+user	0m2.387s
+sys	0m0.143s
+
+real	0m2.606s
+user	0m2.444s
+sys	0m0.148s
+
+real	0m2.548s
+user	0m2.375s
+sys	0m0.158s
+
+real	0m2.576s
+user	0m2.409s
+sys	0m0.159s
+
+real	0m2.599s
+user	0m2.431s
+sys	0m0.150s
+
+real	0m2.585s
+user	0m2.369s
+sys	0m0.138s
+
+real	0m2.571s
+user	0m2.408s
+sys	0m0.156s
+
+real	0m2.558s
+user	0m2.403s
+sys	0m0.144s
+
+real	0m2.581s
+user	0m2.415s
+sys	0m0.154s
+
+real	0m2.552s
+user	0m2.374s
+sys	0m0.146s
+
+real	0m2.580s
+user	0m2.414s
+sys	0m0.143s
+
+real	0m2.596s
+user	0m2.425s
+sys	0m0.158s
+
+real	0m2.550s
+user	0m2.382s
+sys	0m0.149s
+
+real	0m2.594s
+user	0m2.423s
+sys	0m0.150s
+
+real	0m2.549s
+user	0m2.378s
+sys	0m0.156s
+
+real	0m2.534s
+user	0m2.370s
+sys	0m0.155s
+
+real	0m2.583s
+user	0m2.401s
+sys	0m0.149s
+
+real	0m2.539s
+user	0m2.373s
+sys	0m0.154s
+
+real	0m2.569s
+user	0m2.398s
+sys	0m0.143s
+
+real	0m2.519s
+user	0m2.345s
+sys	0m0.154s
+
+real	0m2.584s
+user	0m2.412s
+sys	0m0.164s
+
+real	0m2.569s
+user	0m2.402s
+sys	0m0.139s
+
+real	0m2.555s
+user	0m2.396s
+sys	0m0.144s
+
+real	0m2.550s
+user	0m2.384s
+sys	0m0.145s
+
+real	0m2.574s
+user	0m2.387s
+sys	0m0.142s
+
+real	0m2.601s
+user	0m2.435s
+sys	0m0.157s
+
+real	0m2.566s
+user	0m2.401s
+sys	0m0.137s
+
+real	0m2.590s
+user	0m2.414s
+sys	0m0.147s
+
+real	0m2.591s
+user	0m2.365s
+sys	0m0.160s
 sh: py_windtest: command not found
 sh: py_windtest: command not found
 sh: py_windtest: command not found
