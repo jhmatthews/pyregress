@@ -1,13 +1,29 @@
-Thu Apr 16 23:00:08 BST 2015
+Fri Apr 17 23:00:48 BST 2015
 Your branch is ahead of 'origin/dev' by 16 commits.
-Already up-to-date.
+Updating 6155397..1d69576
+Fast-forward
+ examples/telfer_qso_composite_hst.asc | 4701 +++++++++++++++++++++++++++++++++
+ py_progs/py_plot_output.py            |   19 +-
+ py_progs/py_plot_util.py              |   29 +
+ source/Makefile                       |    7 +-
+ source/atomic.h                       |    2 +-
+ source/foo.h                          |   14 +-
+ source/macro_gov.c                    |  724 +++++
+ source/matom.c                        | 1568 -----------
+ source/photo_gen_matom.c              |  878 ++++++
+ source/python.h                       |    4 +-
+ source/templates.h                    |   14 +-
+ 11 files changed, 6372 insertions(+), 1588 deletions(-)
+ create mode 100644 examples/telfer_qso_composite_hst.asc
+ create mode 100644 source/macro_gov.c
+ create mode 100644 source/photo_gen_matom.c
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler cc 4.2.1
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
 MPI_FLAG= -DMPI_ON
 echo "#define VERSION " \"test\" > version.h
 echo "#define CHOICE"   1             // Compress plasma as much as possible >> version.h
-echo "#define GIT_COMMIT_HASH" \"25366a67064e922bccdbf27f97d12d353177c459\" >> version.h
+echo "#define GIT_COMMIT_HASH" \"1d69576ca631770621faa986661db290fdc7c5f5\" >> version.h
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o python.o python.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o bb.o bb.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o get_atomicdata.o get_atomicdata.c
@@ -85,7 +101,9 @@ mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o pi_rates.o pi_rates.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o matrix_ion.o matrix_ion.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o para_update.o para_update.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o setup.o setup.c
-mpicc  -O3 -Wall  -I../include -DMPI_ON python.o bb.o get_atomicdata.o photon2d.o photon_gen.o saha.o spectra.o wind2d.o wind.o  vector.o debug.o recipes.o trans_phot.o phot_util.o resonate.o radiation.o wind_updates2d.o windsave.o extract.o pdf.o roche.o random.o stellar_wind.o homologous.o proga.o corona.o knigge.o  disk.o lines.o  continuum.o get_models.o emission.o recomb.o diag.o sv.o ionization.o  ispy.o   levels.o gradv.o reposition.o anisowind.o util.o density.o  detail.o bands.o time.o matom.o estimators.o wind_sum.o yso.o elvis.o cylindrical.o rtheta.o spherical.o cylind_var.o bilinear.o gridwind.o partition.o signal.o auger_ionization.o agn.o shell_wind.o compton.o torus.o zeta.o dielectronic.o spectral_estimators.o variable_temperature.o matom_diag.o log.o lineio.o rdpar.o direct_ion.o pi_rates.o matrix_ion.o para_update.o setup.o    -L../lib -lm -lcfitsio -lgsl -lgslcblas  -o python
+mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o photo_gen_matom.o photo_gen_matom.c
+mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o macro_gov.o macro_gov.c
+mpicc  -O3 -Wall  -I../include -DMPI_ON python.o bb.o get_atomicdata.o photon2d.o photon_gen.o saha.o spectra.o wind2d.o wind.o  vector.o debug.o recipes.o trans_phot.o phot_util.o resonate.o radiation.o wind_updates2d.o windsave.o extract.o pdf.o roche.o random.o stellar_wind.o homologous.o proga.o corona.o knigge.o  disk.o lines.o  continuum.o get_models.o emission.o recomb.o diag.o sv.o ionization.o  ispy.o   levels.o gradv.o reposition.o anisowind.o util.o density.o  detail.o bands.o time.o matom.o estimators.o wind_sum.o yso.o elvis.o cylindrical.o rtheta.o spherical.o cylind_var.o bilinear.o gridwind.o partition.o signal.o auger_ionization.o agn.o shell_wind.o compton.o torus.o zeta.o dielectronic.o spectral_estimators.o variable_temperature.o matom_diag.o log.o lineio.o rdpar.o direct_ion.o pi_rates.o matrix_ion.o para_update.o setup.o photo_gen_matom.o macro_gov.o  -L../lib -lm -lcfitsio -lgsl -lgslcblas  -o python
 cp python ../bin/py
 mv python ../bin/pytest
 rm -f *.o  *~ 
@@ -94,7 +112,7 @@ YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
 MPI_FLAG= -DMPI_ON
 echo "#define VERSION " \"test\" > version.h
 echo "#define CHOICE"   1             // Compress plasma as much as possible >> version.h
-echo "#define GIT_COMMIT_HASH" \"25366a67064e922bccdbf27f97d12d353177c459\" >> version.h
+echo "#define GIT_COMMIT_HASH" \"1d69576ca631770621faa986661db290fdc7c5f5\" >> version.h
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o py_wind.o py_wind.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o get_atomicdata.o get_atomicdata.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o py_wind_sub.o py_wind_sub.c
@@ -156,7 +174,9 @@ mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o direct_ion.o direct_ion.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o diag.o diag.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o matrix_ion.o matrix_ion.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o pi_rates.o pi_rates.c
-mpicc -O3 -Wall  -I../include -DMPI_ON py_wind.o get_atomicdata.o py_wind_sub.o windsave.o py_wind_ion.o emission.o recomb.o util.o detail.o pdf.o random.o recipes.o saha.o stellar_wind.o homologous.o sv.o proga.o corona.o knigge.o  disk.o lines.o vector.o wind2d.o wind.o  ionization.o  py_wind_write.o levels.o radiation.o gradv.o phot_util.o anisowind.o resonate.o density.o matom.o estimators.o yso.o elvis.o photon2d.o cylindrical.o rtheta.o spherical.o cylind_var.o bilinear.o gridwind.o py_wind_macro.o partition.o auger_ionization.o spectral_estimators.o shell_wind.o compton.o torus.o zeta.o dielectronic.o variable_temperature.o bb.o rdpar.o log.o direct_ion.o diag.o matrix_ion.o pi_rates.o  -L../lib -lm -lcfitsio -lgsl -lgslcblas  -o py_wind
+mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o photo_gen_matom.o photo_gen_matom.c
+mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o macro_gov.o macro_gov.c
+mpicc -O3 -Wall  -I../include -DMPI_ON py_wind.o get_atomicdata.o py_wind_sub.o windsave.o py_wind_ion.o emission.o recomb.o util.o detail.o pdf.o random.o recipes.o saha.o stellar_wind.o homologous.o sv.o proga.o corona.o knigge.o  disk.o lines.o vector.o wind2d.o wind.o  ionization.o  py_wind_write.o levels.o radiation.o gradv.o phot_util.o anisowind.o resonate.o density.o matom.o estimators.o yso.o elvis.o photon2d.o cylindrical.o rtheta.o spherical.o cylind_var.o bilinear.o gridwind.o py_wind_macro.o partition.o auger_ionization.o spectral_estimators.o shell_wind.o compton.o torus.o zeta.o dielectronic.o variable_temperature.o bb.o rdpar.o log.o direct_ion.o diag.o matrix_ion.o pi_rates.o photo_gen_matom.o macro_gov.o -L../lib -lm -lcfitsio -lgsl -lgslcblas  -o py_wind
 cp py_wind ../bin
 mv py_wind ../bin/py_windtest
 rm -f *.o  *~ 
