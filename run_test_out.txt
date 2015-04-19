@@ -1,22 +1,6 @@
-Fri Apr 17 23:00:48 BST 2015
-Your branch is ahead of 'origin/dev' by 16 commits.
-Updating 6155397..1d69576
-Fast-forward
- examples/telfer_qso_composite_hst.asc | 4701 +++++++++++++++++++++++++++++++++
- py_progs/py_plot_output.py            |   19 +-
- py_progs/py_plot_util.py              |   29 +
- source/Makefile                       |    7 +-
- source/atomic.h                       |    2 +-
- source/foo.h                          |   14 +-
- source/macro_gov.c                    |  724 +++++
- source/matom.c                        | 1568 -----------
- source/photo_gen_matom.c              |  878 ++++++
- source/python.h                       |    4 +-
- source/templates.h                    |   14 +-
- 11 files changed, 6372 insertions(+), 1588 deletions(-)
- create mode 100644 examples/telfer_qso_composite_hst.asc
- create mode 100644 source/macro_gov.c
- create mode 100644 source/photo_gen_matom.c
+Sat Apr 18 23:00:25 BST 2015
+Your branch is ahead of 'origin/dev' by 21 commits.
+Already up-to-date.
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler cc 4.2.1
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags

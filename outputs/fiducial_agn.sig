@@ -1,8 +1,10 @@
-Fri Apr 17 23:01:10 2015      0.0 START                fiducial_agn 
-Fri Apr 17 23:01:10 2015      0.0 NOK                  Initializing variables for fiducial_agn
-Fri Apr 17 23:02:26 2015     76.2 NOK                  Finished initialization for fiducial_agn
-Fri Apr 17 23:02:26 2015     76.2 NOK                  Starting 0 of 30 ionization cycle 
-Fri Apr 17 23:03:29 2015    138.7 OK                   Finished 0 of 30 ionization cycle 
-Fri Apr 17 23:03:29 2015    139.0 NOK                  Starting 1 of 30 ionization cycle 
-Fri Apr 17 23:05:15 2015    244.7 OK                   Finished 1 of 30 ionization cycle 
-Fri Apr 17 23:05:15 2015    245.0 NOK                  Starting 2 of 30 ionization cycle 
+Sat Apr 18 23:00:42 2015      0.0 START                fiducial_agn 
+Sat Apr 18 23:00:42 2015      0.0 NOK                  Initializing variables for fiducial_agn
+Sat Apr 18 23:01:34 2015     51.6 NOK                  Finished initialization for fiducial_agn
+Sat Apr 18 23:01:34 2015     51.6 NOK                  Starting 0 of 30 ionization cycle 
+Sat Apr 18 23:02:14 2015     91.2 OK                   Finished 0 of 30 ionization cycle 
+Sat Apr 18 23:02:14 2015     91.5 NOK                  Starting 1 of 30 ionization cycle 
+Sat Apr 18 23:03:20 2015    157.7 OK                   Finished 1 of 30 ionization cycle 
+Sat Apr 18 23:03:20 2015    158.0 NOK                  Starting 2 of 30 ionization cycle 
+Sat Apr 18 23:04:22 2015    219.4 OK                   Finished 2 of 30 ionization cycle 
+Sat Apr 18 23:04:22 2015    219.7 NOK                  Starting 3 of 30 ionization cycle 
