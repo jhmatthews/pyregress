@@ -1,11 +1,11 @@
 fiducial_agn
-xxx Sun Apr 19 23:00:20 2015      0.0 START                fiducial_agn 
+xxx Mon Apr 20 23:00:57 2015      0.0 START                fiducial_agn 
 Thread 0 starting.
 !!Python Version test 
-!!Git commit hash 1d69576ca631770621faa986661db290fdc7c5f5
+!!Git commit hash 0b223721c4ce12cbbf083bac3956fd07afa29554
 !!Python is running with 1 processors
 This is MPI task number 0 (a total of 1 tasks are running).
-xxx Sun Apr 19 23:00:20 2015      0.0 NOK                  Initializing variables for fiducial_agn
+xxx Mon Apr 20 23:00:57 2015      0.0 NOK                  Initializing variables for fiducial_agn
 Reading data from file fiducial_agn.pf
 Wind_type(0=SV,1=Sphere,2=Previous,3=Proga,4=Corona,5=knigge,6=homologous,7=yso,8=elvis,9=shell)	  0
 Atomic_data   data/standard78
@@ -144,6 +144,7 @@ freqs_init:  1307.87 (3.16e+17)     4136.20 (1.00e+18)
 freqs_init:  4136.20 (1.00e+18)    13078.66 (3.16e+18)  
 freqs_init: 13078.66 (3.16e+18)    49634.40 (1.20e+19)  
 freqs_init: 49634.40 (1.20e+19)    413620.00 (1.00e+20)  
+Could not rename python.pf to python.pf.old
 Could not rename tmp.rdpar
  to python.pfwind2d: 10000 cells of which 1083 are in inwind, 353 partially in_wind, & 1436 with pos. vol
 wind2d: Cell   0 ( 0, 0) has 1 corners in wind, but zero volume
@@ -156,8 +157,8 @@ Wind_check: Punchthrough distance DFUDGE 1.000000e+09 www[1].x[2] 8.856670e+14
 Finished wind check
 m dot wind: Desired 3.15145e+26   Base 3.91977e+25 Calculated 2.6097e+26
 Wind Mdot Desired 3.151448e+26 Plane 4.302574e+25 Sphere(5.000000e+18) 3.062006e+26
-xxx Sun Apr 19 23:01:12 2015     51.6 NOK                  Finished initialization for fiducial_agn
-xxx Sun Apr 19 23:01:12 2015     51.6 NOK                  Starting 0 of 30 ionization cycle 
+xxx Mon Apr 20 23:01:49 2015     51.8 NOK                  Finished initialization for fiducial_agn
+xxx Mon Apr 20 23:01:49 2015     51.8 NOK                  Starting 0 of 30 ionization cycle 
 !!Python: Begining cycle 0 of 30 for defining wind
 photon_gen: band 1.00e+14 to 1.00e+15 weight 2.57e+41 nphotons 20000 ndisk  19976 nwind      0 nstar      0 npow 24 
 photon_gen: band 1.00e+15 to 3.16e+15 weight 5.59e+41 nphotons 20000 ndisk  19994 nwind      0 nstar      0 npow 6 
@@ -630,10 +631,10 @@ Summary  convergence   74 0.052  1436  1.000  1436  #  n_converged fraction_conv
 9.08e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
 1.00e+19        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
 1.10e+19        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
-Completed ionization cycle 0 :  The elapsed TIME was 90.948704
-xxx Sun Apr 19 23:01:51 2015     91.0 OK                   Finished 0 of 30 ionization cycle 
+Completed ionization cycle 0 :  The elapsed TIME was 92.360169
+xxx Mon Apr 20 23:02:29 2015     92.4 OK                   Finished 0 of 30 ionization cycle 
 wind_write sizes: NPLASMA 1436 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
-xxx Sun Apr 19 23:01:52 2015     91.3 NOK                  Starting 1 of 30 ionization cycle 
+xxx Mon Apr 20 23:02:29 2015     92.6 NOK                  Starting 1 of 30 ionization cycle 
 !!Python: Begining cycle 1 of 30 for defining wind
 init_freebound: Creating recombination emissivites between 1.000000e+14 and 1.000000e+15
 init_freebound: Creating recombination emissivites between 1.000000e+15 and 3.162000e+15
@@ -1077,10 +1078,10 @@ Summary  convergence   80 0.056  1436  1.000  1436  #  n_converged fraction_conv
 9.08e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
 1.00e+19        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
 1.10e+19        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
-Completed ionization cycle 1 :  The elapsed TIME was 158.022645
-xxx Sun Apr 19 23:02:58 2015    158.1 OK                   Finished 1 of 30 ionization cycle 
+Completed ionization cycle 1 :  The elapsed TIME was 160.727929
+xxx Mon Apr 20 23:03:38 2015    160.8 OK                   Finished 1 of 30 ionization cycle 
 wind_write sizes: NPLASMA 1436 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
-xxx Sun Apr 19 23:02:59 2015    158.6 NOK                  Starting 2 of 30 ionization cycle 
+xxx Mon Apr 20 23:03:38 2015    161.0 NOK                  Starting 2 of 30 ionization cycle 
 !!Python: Begining cycle 2 of 30 for defining wind
 init_freebound: Recycling freebound, storage for NFB (10), need 13 to avoid 
 init_freebound: Creating recombination emissivites between 1.000000e+14 and 1.000000e+15
@@ -1502,8 +1503,7 @@ Summary  convergence  108 0.075  1399  0.974  1436  #  n_converged fraction_conv
 9.08e+18        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
 1.00e+19        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
 1.10e+19        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0 
-Completed ionization cycle 2 :  The elapsed TIME was 220.045585
-xxx Sun Apr 19 23:04:00 2015    220.1 OK                   Finished 2 of 30 ionization cycle 
+Completed ionization cycle 2 :  The elapsed TIME was 223.993790
+xxx Mon Apr 20 23:04:41 2015    224.0 OK                   Finished 2 of 30 ionization cycle 
 wind_write sizes: NPLASMA 1436 size_Jbar_est 0 size_gamma_est 0 size_alpha_est 0 nlevels_macro 0
-xxx Sun Apr 19 23:04:01 2015    220.3 NOK                  Starting 3 of 30 ionization cycle 
-!!Python: Begining cycle 3 of 30 for defi
+xxx Mon Apr 20 23:04:41 2015    224.2 NOK                  Starting 3 of 30 ionization cycl

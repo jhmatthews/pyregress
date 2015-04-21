@@ -1,13 +1,24 @@
-Sun Apr 19 23:00:06 BST 2015
+Mon Apr 20 23:00:42 BST 2015
 Your branch is ahead of 'origin/dev' by 21 commits.
-Already up-to-date.
+Updating 1d69576..9d9535c
+Fast-forward
+ source/py_wind_macro.c   |   11 +
+ source/signal.c          |   11 +-
+ source/test_bb.c         |  158 ----------
+ source/test_diectronic.c |   86 ------
+ source/test_saha.c       |  736 ----------------------------------------------
+ source/trans_phot.c      |   19 +-
+ 6 files changed, 34 insertions(+), 987 deletions(-)
+ delete mode 100755 source/test_bb.c
+ delete mode 100644 source/test_diectronic.c
+ delete mode 100755 source/test_saha.c
 rm -f *.o  *~ 
 Compiling with mpicc wrapper, for compiler cc 4.2.1
 YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
 MPI_FLAG= -DMPI_ON
 echo "#define VERSION " \"test\" > version.h
 echo "#define CHOICE"   1             // Compress plasma as much as possible >> version.h
-echo "#define GIT_COMMIT_HASH" \"1d69576ca631770621faa986661db290fdc7c5f5\" >> version.h
+echo "#define GIT_COMMIT_HASH" \"0b223721c4ce12cbbf083bac3956fd07afa29554\" >> version.h
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o python.o python.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o bb.o bb.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o get_atomicdata.o get_atomicdata.c
@@ -96,7 +107,7 @@ YOU ARE COMPILING FOR LARGE RUNS, -03 -Wall flags
 MPI_FLAG= -DMPI_ON
 echo "#define VERSION " \"test\" > version.h
 echo "#define CHOICE"   1             // Compress plasma as much as possible >> version.h
-echo "#define GIT_COMMIT_HASH" \"1d69576ca631770621faa986661db290fdc7c5f5\" >> version.h
+echo "#define GIT_COMMIT_HASH" \"0b223721c4ce12cbbf083bac3956fd07afa29554\" >> version.h
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o py_wind.o py_wind.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o get_atomicdata.o get_atomicdata.c
 mpicc -O3 -Wall  -I../include -DMPI_ON   -c -o py_wind_sub.o py_wind_sub.c
