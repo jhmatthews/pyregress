@@ -418,3 +418,60 @@ Finished cycle 80 of 81
 Starting cycle 81 of 81
 Lum= 1e+37
 Finished cycle 81 of 81
+[gh-pages a8af902] Regression test for 2015-04-21
+ 10 files changed, 433 insertions(+), 423 deletions(-)
+ rewrite outputs/cv_standard.sig (71%)
+ rewrite outputs/fiducial_agn.sig (71%)
+ rewrite run_test_err.txt (66%)
+
+OUTPUT for processing script
+
+DATE 2015-04-21
+/Users/jmatthews/Documents/pyregress
+VERSION test
+Model /Users/jmatthews/Documents/pyregress/outputs/1d_sn
+81.50pc Converged
+Run 1d_sn: Column Created Normalised Standard deviation in flux = 1.6132e-16 Mean 7.8934e-16
+Run 1d_sn: Column Emitted Normalised Standard deviation in flux = 3.0399e-16 Mean 6.0038e-16
+Run 1d_sn: Column CenSrc Normalised Standard deviation in flux = 3.0402e-16 Mean 5.9998e-16
+Run 1d_sn: Column Disk Normalised Standard deviation in flux = 0.0000e+00 Mean 0.0000e+00
+Run 1d_sn: Column Wind Normalised Standard deviation in flux = 8.5970e-18 Mean 3.9521e-19
+Run 1d_sn: Column HitSurf Normalised Standard deviation in flux = 1.8811e-16 Mean 1.8641e-16
+Run 1d_sn: Column Scattered Normalised Standard deviation in flux = 2.2171e-16 Mean 2.4556e-16
+Run 1d_sn: Column A45P0.50 Normalised Standard deviation in flux = 2.3118e-16 Mean 6.0087e-16
+10 10
+Model /Users/jmatthews/Documents/pyregress/outputs/cv_standard
+57.30pc Converged
+Run cv_standard: Column Created Normalised Standard deviation in flux = 3.3655e-12 Mean 1.7497e-11
+Run cv_standard: Column Emitted Normalised Standard deviation in flux = 2.8045e-12 Mean 1.3316e-11
+Run cv_standard: Column CenSrc Normalised Standard deviation in flux = 4.7442e-13 Mean 2.9766e-13
+Run cv_standard: Column Disk Normalised Standard deviation in flux = 2.7571e-12 Mean 1.2878e-11
+Run cv_standard: Column Wind Normalised Standard deviation in flux = 3.0325e-13 Mean 1.3981e-13
+Run cv_standard: Column HitSurf Normalised Standard deviation in flux = 9.5973e-13 Mean 1.3140e-12
+Run cv_standard: Column Scattered Normalised Standard deviation in flux = 1.0814e-12 Mean 1.5315e-12
+Run cv_standard: Column A10P0.50 Normalised Standard deviation in flux = 9.6934e-12 Mean 3.6286e-11
+Run cv_standard: Column A28P0.50 Normalised Standard deviation in flux = 7.7854e-12 Mean 2.8201e-11
+Run cv_standard: Column A45P0.50 Normalised Standard deviation in flux = 5.2064e-12 Mean 1.8622e-11
+Run cv_standard: Column A62P0.50 Normalised Standard deviation in flux = 2.6758e-12 Mean 9.1017e-12
+Run cv_standard: Column A80P0.50 Normalised Standard deviation in flux = 1.3751e-12 Mean 2.9068e-12
+14 14
+Model /Users/jmatthews/Documents/pyregress/outputs/fiducial_agn
+7.50pc Converged
+Run fiducial_agn: Column Created Normalised Standard deviation in flux = 1.5704e-01 Mean 4.6459e+00
+Run fiducial_agn: Column Emitted Normalised Standard deviation in flux = 1.6935e-01 Mean 4.3909e+00
+Run fiducial_agn: Column CenSrc Normalised Standard deviation in flux = 3.1993e-02 Mean 5.5051e-03
+Run fiducial_agn: Column Disk Normalised Standard deviation in flux = 1.6613e-01 Mean 4.3841e+00
+Run fiducial_agn: Column Wind Normalised Standard deviation in flux = 7.0440e-03 Mean 1.3089e-03
+Run fiducial_agn: Column HitSurf Normalised Standard deviation in flux = 3.5982e-02 Mean 1.6717e-01
+Run fiducial_agn: Column Scattered Normalised Standard deviation in flux = 8.8171e-02 Mean 1.1031e-01
+Run fiducial_agn: Column A20P0.50 Normalised Standard deviation in flux = 4.2601e-01 Mean 1.0334e+01
+Run fiducial_agn: Column A40P0.50 Normalised Standard deviation in flux = 3.3039e-01 Mean 7.6986e+00
+Run fiducial_agn: Column A60P0.50 Normalised Standard deviation in flux = 1.9734e-01 Mean 4.0798e+00
+Run fiducial_agn: Column A70P0.50 Normalised Standard deviation in flux = 1.3430e-01 Mean 2.3889e+00
+Run fiducial_agn: Column A75P0.50 Normalised Standard deviation in flux = 1.5260e-01 Mean 2.4312e-01
+Run fiducial_agn: Column A80P0.50 Normalised Standard deviation in flux = 7.6299e-02 Mean 7.8485e-02
+Run fiducial_agn: Column A85P0.50 Normalised Standard deviation in flux = 5.6452e-02 Mean 8.9945e-02
+Run fiducial_agn: Column A89P0.50 Normalised Standard deviation in flux = 6.0915e-02 Mean 1.0128e-01
+17 17
+all done
+Every run completed
